@@ -42,6 +42,10 @@ This issue can hinder the real-world adoption of LLMs in various applications an
    
    *Niels Mündler, Jingxuan He, Slobodan Jenko, Martin Vechev* [[paper]](https://arxiv.org/abs/2305.15852) 2023.5
    
+1. **FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation**
+   
+   *Sewon Min, Kalpesh Krishna, Xinxi Lyu, Mike Lewis, Wen-tau Yih, Pang Wei Koh, Mohit Iyyer, Luke Zettlemoyer, Hannaneh Hajishirzi* [[paper]](https://arxiv.org/abs/2305.14251) 2023.5
+   
 1. **KoLA: Carefully Benchmarking World Knowledge of Large Language Models**
    
    *Jifan Yu, Xiaozhi Wang, Shangqing Tu, Shulin Cao, Daniel Zhang-Li, Xin Lv, Hao Peng, Zijun Yao, Xiaohan Zhang, Hanming Li, Chunyang Li, Zheyuan Zhang, Yushi Bai, Yantao Liu, Amy Xin, Nianyi Lin, Kaifeng Yun, Linlu Gong, Jianhui Chen, Zhili Wu, Yunjia Qi, Weikai Li, Yong Guan, Kaisheng Zeng, Ji Qi, Hailong Jin, Jinxin Liu, Yu Gu, Yuan Yao, Ning Ding, Lei Hou, Zhiyuan Liu, Bin Xu, Jie Tang, Juanzi Li* [[paper]](https://arxiv.org/abs/2306.09296) 2023.6
@@ -87,3 +91,11 @@ This issue can hinder the real-world adoption of LLMs in various applications an
 1. **Inference-Time Intervention: Eliciting Truthful Answers from a Language Model**
    
    *Kenneth Li, Oam Patel, Fernanda Viégas, Hanspeter Pfister, Martin Wattenberg* [[paper]](https://arxiv.org/abs/2306.03341) 2023.6
+
+1. **LLM Calibration and Automatic Hallucination Detection via Pareto Optimal Self-supervision**
+   
+   *Theodore Zhao, Mu Wei, J. Samuel Preston, Hoifung Poon* [[paper]](https://arxiv.org/abs/2306.16564) 2023.6
+
+1. **A Stitch in Time Saves Nine: Detecting and Mitigating Hallucinations of LLMs by Validating Low-Confidence Generation**
+   
+   *Neeraj Varshney, Wenlin Yao, Hongming Zhang, Jianshu Chen, Dong Yu* [[paper]](https://arxiv.org/abs/2307.03987) 2023.7
