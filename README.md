@@ -10,6 +10,10 @@ This issue can hinder the real-world adoption of LLMs in various applications an
    
    *Stephanie Lin, Jacob Hilton, Owain Evans* [[paper]](https://aclanthology.org/2022.acl-long.229/) 2022.5
 
+1. **Towards Tracing Factual Knowledge in Language Models Back to the Training Data**
+   
+   *Ekin Akyürek, Tolga Bolukbasi, Frederick Liu, Binbin Xiong, Ian Tenney, Jacob Andreas, Kelvin Guu* [[paper]](https://arxiv.org/abs/2205.11482) 2022.5
+
 1. **A Multitask, Multilingual, Multimodal Evaluation of ChatGPT on Reasoning, Hallucination, and Interactivity**
    
    *Yejin Bang, Samuel Cahyawijaya, Nayeon Lee, Wenliang Dai, Dan Su, Bryan Wilie, Holy Lovenia, Ziwei Ji, Tiezheng Yu, Willy Chung, Quyet V. Do, Yan Xu, Pascale Fung* [[paper]](https://arxiv.org/abs/2302.04023) 2023.2
@@ -30,6 +34,10 @@ This issue can hinder the real-world adoption of LLMs in various applications an
    
    *Jian Xie, Kai Zhang, Jiangjie Chen, Renze Lou, Yu Su* [[paper]](https://arxiv.org/abs/2305.13300) 2023.5
    
+1. **Evaluating the Factual Consistency of Large Language Models Through News Summarization**
+   
+   *Derek Tam, Anisha Mascarenhas, Shiyue Zhang, Sarah Kwan, Mohit Bansal, Colin Raffel* [[paper]](https://aclanthology.org/2023.findings-acl.322/) 2023.5
+   
 1. **Methods for Measuring, Updating, and Visualizing Factual Beliefs in Language Models**
    
    *Peter Hase, Mona Diab, Asli Celikyilmaz, Xian Li, Zornitsa Kozareva, Veselin Stoyanov, Mohit Bansal, Srinivasan Iyer* [[paper]](https://aclanthology.org/2023.eacl-main.199/) 2023.5
@@ -46,9 +54,17 @@ This issue can hinder the real-world adoption of LLMs in various applications an
    
    *Sewon Min, Kalpesh Krishna, Xinxi Lyu, Mike Lewis, Wen-tau Yih, Pang Wei Koh, Mohit Iyyer, Luke Zettlemoyer, Hannaneh Hajishirzi* [[paper]](https://arxiv.org/abs/2305.14251) 2023.5
    
+1. **Sources of Hallucination by Large Language Models on Inference Tasks**
+   
+   *Nick McKenna, Tianyi Li, Liang Cheng, Mohammad Javad Hosseini, Mark Johnson, Mark Steedman* [[paper]](https://arxiv.org/abs/2305.14552) 2023.5
+   
 1. **KoLA: Carefully Benchmarking World Knowledge of Large Language Models**
    
    *Jifan Yu, Xiaozhi Wang, Shangqing Tu, Shulin Cao, Daniel Zhang-Li, Xin Lv, Hao Peng, Zijun Yao, Xiaohan Zhang, Hanming Li, Chunyang Li, Zheyuan Zhang, Yushi Bai, Yantao Liu, Amy Xin, Nianyi Lin, Kaifeng Yun, Linlu Gong, Jianhui Chen, Zhili Wu, Yunjia Qi, Weikai Li, Yong Guan, Kaisheng Zeng, Ji Qi, Hailong Jin, Jinxin Liu, Yu Gu, Yuan Yao, Ning Ding, Lei Hou, Zhiyuan Liu, Bin Xu, Jie Tang, Juanzi Li* [[paper]](https://arxiv.org/abs/2306.09296) 2023.6
+   
+1. **Generating Benchmarks for Factuality Evaluation of Language Models**
+   
+   *Dor Muhlgay, Ori Ram, Inbal Magar, Yoav Levine, Nir Ratner, Yonatan Belinkov, Omri Abend, Kevin Leyton-Brown, Amnon Shashua, Yoav Shoham* [[paper]](https://arxiv.org/abs/2307.06908) 2023.7
 
    
 ## Mitigation of Hallucination for LLMs
@@ -83,6 +99,10 @@ This issue can hinder the real-world adoption of LLMs in various applications an
 1. **Improving Factuality and Reasoning in Language Models through Multiagent Debate**
    
    *Yilun Du, Shuang Li, Antonio Torralba, Joshua B. Tenenbaum, Igor Mordatch* [[paper]](https://arxiv.org/abs/2305.14325) 2023.5
+
+1. **Enabling Large Language Models to Generate Text with Citations**
+   
+   *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.5
 
 1. **Measuring and Modifying Factual Knowledge in Large Language Models**
    
