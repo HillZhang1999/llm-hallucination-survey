@@ -34,6 +34,10 @@ This issue can hinder the real-world adoption of LLMs in various applications an
    
    *Jian Xie, Kai Zhang, Jiangjie Chen, Renze Lou, Yu Su* [[paper]](https://arxiv.org/abs/2305.13300) 2023.5
    
+1. **LLMs as Factual Reasoners: Insights from Existing Benchmarks and Beyond**
+   
+   *Philippe Laban, Wojciech Kryściński, Divyansh Agarwal, Alexander R. Fabbri, Caiming Xiong, Shafiq Joty, Chien-Sheng Wu* [[paper]](https://arxiv.org/abs/2305.14540) 2023.5
+   
 1. **Evaluating the Factual Consistency of Large Language Models Through News Summarization**
    
    *Derek Tam, Anisha Mascarenhas, Shiyue Zhang, Sarah Kwan, Mohit Bansal, Colin Raffel* [[paper]](https://aclanthology.org/2023.findings-acl.322/) 2023.5
@@ -49,6 +53,10 @@ This issue can hinder the real-world adoption of LLMs in various applications an
 1. **Self-contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation**
    
    *Niels Mündler, Jingxuan He, Slobodan Jenko, Martin Vechev* [[paper]](https://arxiv.org/abs/2305.15852) 2023.5
+  
+1. **Evaluating Factual Consistency of Texts with Semantic Role Labeling**
+   
+   *Jing Fan, Dennis Aumiller, Michael Gertz* [[paper]](https://arxiv.org/abs/2305.13309) 2023.5
    
 1. **FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation**
    
@@ -65,7 +73,7 @@ This issue can hinder the real-world adoption of LLMs in various applications an
 1. **Generating Benchmarks for Factuality Evaluation of Language Models**
    
    *Dor Muhlgay, Ori Ram, Inbal Magar, Yoav Levine, Nir Ratner, Yonatan Belinkov, Omri Abend, Kevin Leyton-Brown, Amnon Shashua, Yoav Shoham* [[paper]](https://arxiv.org/abs/2307.06908) 2023.7
-
+   
    
 ## Mitigation of Hallucination for LLMs
 1. **Factuality Enhanced Language Models for Open-Ended Text Generation**
@@ -103,6 +111,22 @@ This issue can hinder the real-world adoption of LLMs in various applications an
 1. **Enabling Large Language Models to Generate Text with Citations**
    
    *Tianyu Gao, Howard Yen, Jiatong Yu, Danqi Chen* [[paper]](https://arxiv.org/abs/2305.14627) 2023.5
+
+1. **Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework**
+   
+   *Ruochen Zhao, Xingxuan Li, Shafiq Joty, Chengwei Qin, Lidong Bing* [[paper]](https://arxiv.org/abs/2305.03268) 2023.5
+   
+1. **Self-Checker: Plug-and-Play Modules for Fact-Checking with Large Language Models**
+   
+   *Miaoran Li, Baolin Peng, Zhu Zhang* [[paper]](https://arxiv.org/abs/2305.14623) 2023.5
+
+1. **Augmented Large Language Models with Parametric Knowledge Guiding**
+   
+   *Ziyang Luo, Can Xu, Pu Zhao, Xiubo Geng, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang* [[paper]](https://arxiv.org/abs/2305.04757) 2023.5
+
+1. **LLMs as Factual Reasoners: Insights from Existing Benchmarks and Beyond**
+   
+   *Philippe Laban, Wojciech Kryściński, Divyansh Agarwal, Alexander R. Fabbri, Caiming Xiong, Shafiq Joty, Chien-Sheng Wu* [[paper]](https://arxiv.org/abs/2305.14540) 2023.5
 
 1. **Measuring and Modifying Factual Knowledge in Large Language Models**
    
