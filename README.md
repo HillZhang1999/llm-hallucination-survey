@@ -74,6 +74,10 @@ This issue can hinder the real-world adoption of LLMs in various applications an
    
    *Dor Muhlgay, Ori Ram, Inbal Magar, Yoav Levine, Nir Ratner, Yonatan Belinkov, Omri Abend, Kevin Leyton-Brown, Amnon Shashua, Yoav Shoham* [[paper]](https://arxiv.org/abs/2307.06908) 2023.7
    
+1. **Overthinking the Truth: Understanding how Language Models Process False Demonstrations**
+   
+   *Danny Halawi, Jean-Stanislas Denain, Jacob Steinhardt* [[paper]](https://arxiv.org/abs/2307.09476) 2023.7
+   
    
 ## Mitigation of Hallucination for LLMs
 1. **Factuality Enhanced Language Models for Open-Ended Text Generation**
@@ -115,6 +119,10 @@ This issue can hinder the real-world adoption of LLMs in various applications an
 1. **Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework**
    
    *Ruochen Zhao, Xingxuan Li, Shafiq Joty, Chengwei Qin, Lidong Bing* [[paper]](https://arxiv.org/abs/2305.03268) 2023.5
+
+1. **Trusting Your Evidence: Hallucinate Less with Context-aware Decoding**
+   
+   *Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, Scott Wen-tau Yih* [[paper]](https://arxiv.org/abs/2305.14739) 2023.5
    
 1. **Self-Checker: Plug-and-Play Modules for Fact-Checking with Large Language Models**
    
@@ -140,6 +148,15 @@ This issue can hinder the real-world adoption of LLMs in various applications an
    
    *Theodore Zhao, Mu Wei, J. Samuel Preston, Hoifung Poon* [[paper]](https://arxiv.org/abs/2306.16564) 2023.6
 
-1. **A Stitch in Time Saves Nine: Detecting and Mitigating Hallucinations of LLMs by Validating Low-Confidence Generation**
+1. **LM vs LM: Detecting Factual Errors via Cross Examination**
    
+   *Theodore Zhao, Mu Wei, J. Samuel Preston, Hoifung Poon* [[paper]](https://arxiv.org/abs/2306.16564) 2023.6
+
+1. **A Stitch in Time Saves Nine: Detecting and Mitigating Hallucinations of LLMs by Validating Low-Confidence Generation**
+
    *Neeraj Varshney, Wenlin Yao, Hongming Zhang, Jianshu Chen, Dong Yu* [[paper]](https://arxiv.org/abs/2307.03987) 2023.7
+
+1. **FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios**
+
+   *I-Chun Chern, Steffi Chern, Shiqi Chen, Weizhe Yuan, Kehua Feng, Chunting Zhou, Junxian He, Graham Neubig, Pengfei Liu* [[paper]](https://arxiv.org/abs/2307.13528) 2023.7
+
