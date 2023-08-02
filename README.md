@@ -77,6 +77,18 @@ This issue can hinder the real-world adoption of LLMs in various applications an
 1. **Overthinking the Truth: Understanding how Language Models Process False Demonstrations**
    
    *Danny Halawi, Jean-Stanislas Denain, Jacob Steinhardt* [[paper]](https://arxiv.org/abs/2307.09476) 2023.7
+      
+1. **Fact-Checking of AI-Generated Reports**
+   
+   *Razi Mahmood, Ge Wang, Mannudeep Kalra, Pingkun Yan* [[paper]](https://arxiv.org/abs/2307.14634) 2023.7
+      
+1. **Evaluating Correctness and Faithfulness of Instruction-Following Models for Question Answering**
+   
+   *Vaibhav Adlakha, Parishad BehnamGhader, Xing Han Lu, Nicholas Meade, Siva Reddy* [[paper]](https://arxiv.org/abs/2307.16877) 2023.7
+      
+1. **Med-HALT: Medical Domain Hallucination Test for Large Language Models**
+   
+   *Logesh Kumar Umapathi, Ankit Pal, Malaikannan Sankarasubbu* [[paper]](https://arxiv.org/abs/2307.15343) 2023.7
    
    
 ## Mitigation of Hallucination for LLMs
