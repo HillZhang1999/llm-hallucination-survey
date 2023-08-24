@@ -94,7 +94,7 @@ This issue can hinder the real-world adoption of LLMs in various applications an
    
    *Kai Sun, Yifan Ethan Xu, Hanwen Zha, Yue Liu, Xin Luna Dong* [[paper]](https://arxiv.org/abs/2308.10168) 2023.8
       
-1. **Head-to-Tail: How Knowledgeable are Large Language Models (LLM)? A.K.A. Will LLMs Replace Knowledge Graphs?**
+1. **Large Language Models on Wikipedia-Style Survey Generation: an Evaluation in NLP Concepts**
    
    *Fan Gao, Hang Jiang, Moritz Blum, Jinghui Lu, Yuang Jiang, Irene Li* [[paper]](https://arxiv.org/abs/2308.10410) 2023.8
    
