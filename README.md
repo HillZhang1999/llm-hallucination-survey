@@ -89,7 +89,14 @@ This issue can hinder the real-world adoption of LLMs in various applications an
 1. **Med-HALT: Medical Domain Hallucination Test for Large Language Models**
    
    *Logesh Kumar Umapathi, Ankit Pal, Malaikannan Sankarasubbu* [[paper]](https://arxiv.org/abs/2307.15343) 2023.7
+      
+1. **Head-to-Tail: How Knowledgeable are Large Language Models (LLM)? A.K.A. Will LLMs Replace Knowledge Graphs?**
    
+   *Kai Sun, Yifan Ethan Xu, Hanwen Zha, Yue Liu, Xin Luna Dong* [[paper]](https://arxiv.org/abs/2308.10168) 2023.8
+      
+1. **Head-to-Tail: How Knowledgeable are Large Language Models (LLM)? A.K.A. Will LLMs Replace Knowledge Graphs?**
+   
+   *Fan Gao, Hang Jiang, Moritz Blum, Jinghui Lu, Yuang Jiang, Irene Li* [[paper]](https://arxiv.org/abs/2308.10410) 2023.8
    
 ## Mitigation of Hallucination for LLMs
 1. **Factuality Enhanced Language Models for Open-Ended Text Generation**
@@ -171,4 +178,12 @@ This issue can hinder the real-world adoption of LLMs in various applications an
 1. **FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios**
 
    *I-Chun Chern, Steffi Chern, Shiqi Chen, Weizhe Yuan, Kehua Feng, Chunting Zhou, Junxian He, Graham Neubig, Pengfei Liu* [[paper]](https://arxiv.org/abs/2307.13528) 2023.7
+
+1. **Halo: Estimation and Reduction of Hallucinations in Open-Source Weak Large Language Models**
+
+   *Mohamed Elaraby, Mengyin Lu, Jacob Dunn, Xueying Zhang, Yu Wang, Shizhu Liu* [[paper]](https://arxiv.org/abs/2308.11764) 2023.8
+
+1. **PREFER: Prompt Ensemble Learning via Feedback-Reflect-Refine**
+
+   *Chenrui Zhang, Lin Liu, Jinpeng Wang, Chuyuan Wang, Xiao Sun, Hongyu Wang, Mingchen Cai* [[paper]](https://arxiv.org/abs/2308.12033) 2023.8
 
