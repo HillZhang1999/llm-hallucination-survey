@@ -9,6 +9,11 @@ This issue can hinder the real-world adoption of LLMs in various applications an
 1. **TruthfulQA: Measuring How Models Mimic Human Falsehoods**
    
    *Stephanie Lin, Jacob Hilton, Owain Evans* [[paper]](https://aclanthology.org/2022.acl-long.229/) 2022.5
+   
+1. **A Token-level Reference-free Hallucination Detection Benchmark for Free-form Text Generation**
+   
+   *Tianyu Liu, Yizhe Zhang, Chris Brockett, Yi Mao, Zhifang Sui, Weizhu Chen, Bill Dolan* [[paper]](https://aclanthology.org/2022.acl-long.464/) 2022.5
+
 
 1. **Towards Tracing Factual Knowledge in Language Models Back to the Training Data**
    
