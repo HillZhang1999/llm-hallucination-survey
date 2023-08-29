@@ -159,6 +159,10 @@ This issue can hinder the real-world adoption of LLMs in various applications an
 1. **LLMs as Factual Reasoners: Insights from Existing Benchmarks and Beyond**
    
    *Philippe Laban, Wojciech Kryściński, Divyansh Agarwal, Alexander R. Fabbri, Caiming Xiong, Shafiq Joty, Chien-Sheng Wu* [[paper]](https://arxiv.org/abs/2305.14540) 2023.5
+   
+1. **LM vs LM: Detecting Factual Errors via Cross Examination**
+   
+   *Theodore Zhao, Mu Wei, J. Samuel Preston, Hoifung Poon* [[paper]](https://arxiv.org/abs/2305.13281) 2023.5
 
 1. **Measuring and Modifying Factual Knowledge in Large Language Models**
    
@@ -169,10 +173,6 @@ This issue can hinder the real-world adoption of LLMs in various applications an
    *Kenneth Li, Oam Patel, Fernanda Viégas, Hanspeter Pfister, Martin Wattenberg* [[paper]](https://arxiv.org/abs/2306.03341) 2023.6
 
 1. **LLM Calibration and Automatic Hallucination Detection via Pareto Optimal Self-supervision**
-   
-   *Theodore Zhao, Mu Wei, J. Samuel Preston, Hoifung Poon* [[paper]](https://arxiv.org/abs/2306.16564) 2023.6
-
-1. **LM vs LM: Detecting Factual Errors via Cross Examination**
    
    *Theodore Zhao, Mu Wei, J. Samuel Preston, Hoifung Poon* [[paper]](https://arxiv.org/abs/2306.16564) 2023.6
 
