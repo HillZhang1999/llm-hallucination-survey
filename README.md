@@ -1,14 +1,21 @@
 # llm-hallucination-survey
 ![](https://img.shields.io/badge/PRs-welcome-brightgreen) 
 
-`Hallucination` refers to the generated content that is nonsensical or unfaithful to the provided source content or even world knowledge.
+`Hallucination` refers to the generated content that while seemingly plausible, deviate from user input, previously generated context, or factual knowledge.
 
-This issue can hinder the real-world adoption of LLMs in various applications and scenarios.
+<div align="center">
+  <img src="figures/hallucination_example.png" alt="LLM evaluation" width="500"><br>
+  Hallucinations occurred in LLM responses
+</div>
+
+This issue significantly undermines the reliability of LLMs in real-world scenarios. 
 
 ## News
 We have uploaded a comprehensive survey about hallucination in large language models, which discussed the evaluation, explanation, and mitigation. Check it out!
 
 [Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://arxiv.org/abs/2309.01219)
+
+
 
 
 ## Evaluation of Hallucination for LLMs
