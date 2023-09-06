@@ -6,8 +6,7 @@
 <div align="center">
   <img src="figures/hallucination_example.png" alt="LLM evaluation" width="500"><br>
   Hallucinations occurred in LLM responses
-</div>
-
+</div></br>
 This issue significantly undermines the reliability of LLMs in real-world scenarios. 
 
 ## News
