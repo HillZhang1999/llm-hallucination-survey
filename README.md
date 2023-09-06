@@ -5,6 +5,12 @@
 
 This issue can hinder the real-world adoption of LLMs in various applications and scenarios.
 
+## News
+We have uploaded a comprehensive survey about hallucination in large language models, which discussed the evaluation, explanation, and mitigation. Check it out!
+
+[Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://arxiv.org/abs/2309.01219)
+
+
 ## Evaluation of Hallucination for LLMs
 1. **TruthfulQA: Measuring How Models Mimic Human Falsehoods**
    
