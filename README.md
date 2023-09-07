@@ -1,15 +1,18 @@
 # llm-hallucination-survey
 ![](https://img.shields.io/badge/PRs-welcome-brightgreen) 
+<img src="https://img.shields.io/badge/Version-1.0-blue.svg" alt="Version">
+<img src="https://img.shields.io/github/stars/HillZhang1999/llm-hallucination-survey?color=yellow" alt="Stars">
+<img src="https://img.shields.io/github/issues/HillZhang1999/llm-hallucination-survey?color=red" alt="Issues">
+
 
 `Hallucination` refers to the generated content that while seemingly plausible, deviate from user input, previously generated context, or factual knowledge.
 
+
 <div align="center">
-  <img src="figures/hallucination_example.png" alt="LLM evaluation" width="500"><br>
-  Hallucinations occurred in LLM responses
-</div></br>
+  <img src="figures/hallucination_example.png" alt="LLM evaluation" width="500">
+</div>
 This issue significantly undermines the reliability of LLMs in real-world scenarios. 
 
-## News
 We have uploaded a comprehensive survey about hallucination in large language models, which discussed the evaluation, explanation, and mitigation. Check it out!
 
 [Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://arxiv.org/abs/2309.01219)
