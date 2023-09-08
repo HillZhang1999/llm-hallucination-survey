@@ -20,7 +20,7 @@ If you think our survey is insightful, please kindly cite our paper:
 ```
 @article{zhang2023hallucination,
       title={Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models}, 
-      author={Zhang, Yue and Li, Yafu and Cui, Leyang and Cai, Deng and Liu, Lemao and Fu, Tingchen and Huang, Xinting and Zhao, Enbo and Zhang, Yu and Chen, Yulong and Wang, Longyue and Luu, Anh Tuan and Bi, Wei and Shi, Freda and Shi Shuming},
+      author={Zhang, Yue and Li, Yafu and Cui, Leyang and Cai, Deng and Liu, Lemao and Fu, Tingchen and Huang, Xinting and Zhao, Enbo and Zhang, Yu and Chen, Yulong and Wang, Longyue and Luu, Anh Tuan and Bi, Wei and Shi, Freda and Shi, Shuming},
       journal={arXiv preprint arXiv:2309.01219},
       year={2023}
 }
