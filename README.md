@@ -223,17 +223,19 @@ Some researchers claim that the behavior cloning phenemenon in SFT can induce ha
 1. **When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories**
    *Alex Mallen, Akari Asai, Victor Zhong, Rajarshi Das, Daniel Khashabi, Hannaneh Hajishirzi* [[paper]](https://arxiv.org/abs/2212.10511) 2022.10
 
-1. **RARR: Researching and Revising What Language Models Say, Using Language Models**
-   *Luyu Gao, Zhuyun Dai, Panupong Pasupat, Anthony Chen, Arun Tejasvi Chaganty, Yicheng Fan, Vincent Y. Zhao, Ni Lao, Hongrae Lee, Da-Cheng Juan, Kelvin Guu* [[paper]](https://arxiv.org/abs/2210.08726) 2022.10
-
 1. **Trusting Your Evidence: Hallucinate Less with Context-aware Decoding**
    *Weijia Shi, Xiaochuang Han, Mike Lewis, Yulia Tsvetkov, Luke Zettlemoyer, Scott Wen-tau Yih* [[paper]](https://arxiv.org/abs/2305.14739) 2023.5
 
 1. **Inference-Time Intervention: Eliciting Truthful Answers from a Language Model**
    *Kenneth Li, Oam Patel, Fernanda Viégas, Hanspeter Pfister, Martin Wattenberg* [[paper]](https://arxiv.org/abs/2306.03341) 2023.6
 
-
+1. **DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models**
+   *Yung-Sung Chuang, Yujia Xie, Hongyin Luo, Yoon Kim, James Glass, Pengcheng He* [[paper]](https://arxiv.org/abs/2309.03883) 2023.9
+   
 #### Resorting to External Knowledge
+1. **RARR: Researching and Revising What Language Models Say, Using Language Models**
+   *Luyu Gao, Zhuyun Dai, Panupong Pasupat, Anthony Chen, Arun Tejasvi Chaganty, Yicheng Fan, Vincent Y. Zhao, Ni Lao, Hongrae Lee, Da-Cheng Juan, Kelvin Guu* [[paper]](https://arxiv.org/abs/2210.08726) 2022.10
+
 1. **Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback**
    
    *Baolin Peng, Michel Galley, Pengcheng He, Hao Cheng, Yujia Xie, Yu Hu, Qiuyuan Huang, Lars Liden, Zhou Yu, Weizhu Chen, Jianfeng Gao* [[paper]](https://arxiv.org/abs/2302.12813) 2023.2
