@@ -11,12 +11,12 @@
 </div></br>
 This issue significantly undermines the reliability of LLMs in real-world scenarios. 
 
-## 📰 News
+## 📰News
 😎 We have uploaded a comprehensive survey about the hallucination issue within the context of large language models, which discussed the evaluation, explanation, and mitigation. Check it out!
 
 [Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://arxiv.org/abs/2309.01219)
 
-If you think our survey is insightful, please kindly cite our paper:
+If you think our survey is helpful, please kindly cite our paper:
 ```
 @article{zhang2023hallucination,
       title={Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models}, 
@@ -26,10 +26,18 @@ If you think our survey is insightful, please kindly cite our paper:
 }
 ```
 
+## 🚀Table of Content
+- [LLM-Hallucination-Survey ](#llm-hallucination-survey)
+  - [News](#news)
+  - [Table of Content](#table-of-content)
+  - [Evaluation](#evaluation-of-llm-hallucination)
+  - [Source](#source-of-llm-hallucination)
+  - [Mitigation](#mitigation-of-llm-hallucination)
+  - [Contact](#contact)
 
 ## 🔍Evaluation of LLM Hallucination
 ### Input-conflicting Hallucination
-This kind of hallucination denotes the model response deviates from the *user input*, including task instruction and task input. This kind of hallucination has been widely studies in some traditional NLG tasks, sush as:
+This kind of hallucination denotes the model response deviates from the *user input*, including task instruction and task input. This kind of hallucination has been widely studied in some traditional NLG tasks, such as:
 
 + `Machine Translation`:
   + **Hallucinations in Neural Machine TranslationDownload**
@@ -68,8 +76,10 @@ This kind of hallucination means the generated content exhibits *self-contradict
 *Tianyu Liu, Yizhe Zhang, Chris Brockett, Yi Mao, Zhifang Sui, Weizhu Chen, Bill Dolan*[[paper]](https://aclanthology.org/2022.acl-long.464/) 2022.5 (not only limited to context-conflicting type)
 
 1. **Large Language Models Can Be Easily Distracted by Irrelevant Context**
-*Freda Shi, Xinyun Chen, Kanishka Misra, Nathan Scales, David Dohan, Ed H. Chi, Nathanael Schärli, Denny Zhoug*[[paper]](https://arxiv.org/abs/2302.00093) 2023.2
+*Freda Shi, Xinyun Chen, Kanishka Misra, Nathan Scales, David Dohan, Ed H. Chi, Nathanael Schärli, Denny Zhou*[[paper]](https://arxiv.org/abs/2302.00093) 2023.2
 
+1. **HistAlign: Improving Context Dependency in Language Generation by Aligning with History**
+  *David Wan, Shiyue Zhang, Mohit Bansal*[[paper]](https://arxiv.org/abs/2305.04782) 2023.5
    
 1. **Self-contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation**
    *Niels Mündler, Jingxuan He, Slobodan Jenko, Martin Vechev* [[paper]](https://arxiv.org/abs/2305.15852) 2023.5
@@ -134,7 +144,7 @@ This kind of hallucination means the generated content conflicts with *establish
    *Fan Gao, Hang Jiang, Moritz Blum, Jinghui Lu, Yuang Jiang, Irene Li* [[paper]](https://arxiv.org/abs/2308.10410) 2023.8
 
 ## 🚨Source of LLM Hallucination
-There are also a line of works that try to explain the hallucination with LLMs.
+There is also a line of works that try to explain the hallucination with LLMs.
 
 1. **How Pre-trained Language Models Capture Factual Knowledge? A Causal-Inspired Analysis**
    *Shaobo Li, Xiaoguang Li, Lifeng Shang, Zhenhua Dong, Chengjie Sun, Bingquan Liu, Zhenzhou Ji, Xin Jiang, Qun Liu* [[paper]](https://arxiv.org/abs/2203.16747) 2022.3
@@ -200,7 +210,7 @@ Mitigating hallucination during SFT can involve curating SFT data, such as:
 1. **Halo: Estimation and Reduction of Hallucinations in Open-Source Weak Large Language Models**
    *Mohamed Elaraby, Mengyin Lu, Jacob Dunn, Xueying Zhang, Yu Wang, Shizhu Liu* [[paper]](https://arxiv.org/abs/2308.11764v2) 2023.8
 
-Some researchers claim that the behavior cloning phenemenon in SFT can induce hallucinations. So some works try to mitigate hallucinations via *honesty-oriented SFT*.
+Some researchers claim that the behavior cloning phenomenon in SFT can induce hallucinations. So some works try to mitigate hallucinations via *honesty-oriented SFT*.
 1. **MOSS: Training Conversational Language Models from Synthetic Data**
    *Tianxiang Sun and Xiaotian Zhang and Zhengfu He and Peng Li and Qinyuan Cheng and Hang Yan and Xiangyang Liu and Yunfan Shao and Qiong Tang and Xingjian Zhao and Ke Chen and Yining Zheng and Zhejian Zhou and Ruixiao Li and Jun Zhan and Yunhua Zhou and Linyang Li and Xiaogui Yang and Lingling Wu and Zhangyue Yin and Xuanjing Huang and Xipeng Qiu* [[repo]](https://github.com/OpenLMLab/MOSS) 2023
 
@@ -231,6 +241,9 @@ Some researchers claim that the behavior cloning phenemenon in SFT can induce ha
 
 1. **DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models**
    *Yung-Sung Chuang, Yujia Xie, Hongyin Luo, Yoon Kim, James Glass, Pengcheng He* [[paper]](https://arxiv.org/abs/2309.03883) 2023.9
+
+1. **Mitigating Hallucinations and Off-target Machine Translation with Source-Contrastive and Language-Contrastive Decoding**
+   *Rico Sennrich, Jannis Vamvas, Alireza Mohammadshahi* [[paper]](https://arxiv.org/abs/2309.07098) 2023.9
    
 #### Resorting to External Knowledge
 1. **RARR: Researching and Revising What Language Models Say, Using Language Models**
@@ -260,10 +273,13 @@ Some researchers claim that the behavior cloning phenemenon in SFT can induce ha
 
 1. **FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios**
    *I-Chun Chern, Steffi Chern, Shiqi Chen, Weizhe Yuan, Kehua Feng, Chunting Zhou, Junxian He, Graham Neubig, Pengfei Liu* [[paper]](https://arxiv.org/abs/2307.13528) 2023.7
+
+1. **Knowledge Solver: Teaching LLMs to Search for Domain Knowledge from Knowledge Graphs**
+   *Chao Feng, Xinyu Zhang, Zichu Fei* [[paper]](https://arxiv.org/abs/2309.03118) 2023.9
+   
 #### Exploiting Uncertainty
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**
    *Potsawee Manakul, Adian Liusie, Mark J. F. Gales* [[paper]](https://arxiv.org/abs/2303.08896) 2023.3
-
    
 1. **Self-contradictory Hallucinations of Large Language Models: Evaluation, Detection and Mitigation**
    *Niels Mündler, Jingxuan He, Slobodan Jenko, Martin Vechev* [[paper]](https://arxiv.org/abs/2305.15852) 2023.5
@@ -277,14 +293,20 @@ Some researchers claim that the behavior cloning phenemenon in SFT can induce ha
 1. **A Stitch in Time Saves Nine: Detecting and Mitigating Hallucinations of LLMs by Validating Low-Confidence Generation**
    *Neeraj Varshney, Wenlin Yao, Hongming Zhang, Jianshu Chen, Dong Yu* [[paper]](https://arxiv.org/abs/2307.03987) 2023.7
 
+1. **Zero-Resource Hallucination Prevention for Large Language Models**
+   *Junyu Luo, Cao Xiao, Fenglong Ma* [[paper]](https://arxiv.org/abs/2309.02654) 2023.9
+
+
 #### Multi-agent Interaction
 1. **Improving Factuality and Reasoning in Language Models through Multiagent Debate**
    *Yilun Du, Shuang Li, Antonio Torralba, Joshua B. Tenenbaum, Igor Mordatch* [[paper]](https://arxiv.org/abs/2305.14325) 2023.5
 
-   
 1. **LM vs LM: Detecting Factual Errors via Cross Examination**
    *Roi Cohen, May Hamri, Mor Geva, Amir Globerson* [[paper]](https://arxiv.org/abs/2305.13281) 2023.5
 
+1. **Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration**
+   *Zhenhailong Wang, Shaoguang Mao, Wenshan Wu, Tao Ge, Furu Wei, Heng Ji* [[paper]](https://arxiv.org/abs/2307.05300) 2023.7
+   
 #### Human-in-the-loop
 1. **Mitigating Language Model Hallucination with Interactive Question-Knowledge Alignment**
    *Shuo Zhang, Liangming Pan, Junzhou Zhao, William Yang Wang* [[paper]](https://arxiv.org/abs/2305.13669) 2023.5
@@ -299,7 +321,7 @@ Some researchers claim that the behavior cloning phenemenon in SFT can induce ha
 1. **Inference-Time Intervention: Eliciting Truthful Answers from a Language Model**
    *Kenneth Li, Oam Patel, Fernanda Viégas, Hanspeter Pfister, Martin Wattenberg* [[paper]](https://arxiv.org/abs/2306.03341) 2023.6
 
-## 📲 Contact
+## 📲Contact
 We warmly welcome any kinds of useful suggestions or contributions. Feel free to drop us an issue or contact Hill with [this e-mail](mailto:hillzhang1999@qq.com).
 
 
