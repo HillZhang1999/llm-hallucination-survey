@@ -142,6 +142,10 @@ This kind of hallucination means the generated content conflicts with *establish
 1. **Large Language Models on Wikipedia-Style Survey Generation: an Evaluation in NLP Concepts**
    
    *Fan Gao, Hang Jiang, Moritz Blum, Jinghui Lu, Yuang Jiang, Irene Li* [[paper]](https://arxiv.org/abs/2308.10410) 2023.8
+      
+1. **ChatGPT Hallucinates when Attributing Answers**
+   
+   *Guido Zuccon, Bevan Koopman, Razia Shaik* [[paper]](https://arxiv.org/abs/2309.09401) 2023.9
 
 ## 🚨Source of LLM Hallucination
 There is also a line of works that try to explain the hallucination with LLMs.
@@ -198,6 +202,8 @@ One main mitigation method during pretraining is *(automatically) curating train
    *Guilherme Penedo, Quentin Malartic, Daniel Hesslow, Ruxandra Cojocaru, Alessandro Cappelli, Hamza Alobeidli, Baptiste Pannier, Ebtesam Almazrouei, Julien Launay* [[paper]](https://arxiv.org/abs/2306.01116) 2023.7
 1. **Llama 2: Open Foundation and Fine-Tuned Chat Models**
    *Hugo Touvron, Louis Martin, Kevin Stone, Peter Albert, Amjad Almahairi, Yasmine Babaei, Nikolay Bashlykov, Soumya Batra, Prajjwal Bhargava, Shruti Bhosale, Dan Bikel, Lukas Blecher, Cristian Canton Ferrer, Moya Chen, Guillem Cucurull, David Esiobu, Jude Fernandes, Jeremy Fu, Wenyin Fu, Brian Fuller, Cynthia Gao, Vedanuj Goswami, Naman Goyal, Anthony Hartshorn, Saghar Hosseini, Rui Hou, Hakan Inan, Marcin Kardas, Viktor Kerkez, Madian Khabsa, Isabel Kloumann, Artem Korenev, Punit Singh Koura, Marie-Anne Lachaux, Thibaut Lavril, Jenya Lee, Diana Liskovich, Yinghai Lu, Yuning Mao, Xavier Martinet, Todor Mihaylov, Pushkar Mishra, Igor Molybog, Yixin Nie, Andrew Poulton, Jeremy Reizenstein, Rashi Rungta, Kalyan Saladi, Alan Schelten, Ruan Silva, Eric Michael Smith, Ranjan Subramanian, Xiaoqing Ellen Tan, Binh Tang, Ross Taylor, Adina Williams, Jian Xiang Kuan, Puxin Xu, Zheng Yan, Iliyan Zarov, Yuchen Zhang, Angela Fan, Melanie Kambadur, Sharan Narang, Aurelien Rodriguez, Robert Stojnic, Sergey Edunov, Thomas Scialom* [[paper]](https://arxiv.org/abs/2307.09288) 2023.7
+1. **Textbooks Are All You Need II: phi-1.5 technical report**
+   *Yuanzhi Li, Sébastien Bubeck, Ronen Eldan, Allie Del Giorno, Suriya Gunasekar, Yin Tat Lee* [[paper]](https://arxiv.org/abs/2309.05463) 2023.9
 
 ### Mitigation During SFT
 Mitigating hallucination during SFT can involve curating SFT data, such as:
@@ -276,6 +282,9 @@ Some researchers claim that the behavior cloning phenomenon in SFT can induce ha
 
 1. **Knowledge Solver: Teaching LLMs to Search for Domain Knowledge from Knowledge Graphs**
    *Chao Feng, Xinyu Zhang, Zichu Fei* [[paper]](https://arxiv.org/abs/2309.03118) 2023.9
+
+1. **"Merge Conflicts!" Exploring the Impacts of External Distractors to Parametric Knowledge Graphs**
+   *Cheng Qian, Xinran Zhao, Sherry Tongshuang Wu* [[paper]](https://arxiv.org/abs/2309.08594) 2023.9
    
 #### Exploiting Uncertainty
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**
