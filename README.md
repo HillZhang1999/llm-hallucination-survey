@@ -256,8 +256,10 @@ Some researchers claim that the behavior cloning phenomenon in SFT can induce ha
    *Luyu Gao, Zhuyun Dai, Panupong Pasupat, Anthony Chen, Arun Tejasvi Chaganty, Yicheng Fan, Vincent Y. Zhao, Ni Lao, Hongrae Lee, Da-Cheng Juan, Kelvin Guu* [[paper]](https://arxiv.org/abs/2210.08726) 2022.10
 
 1. **Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback**
-   
    *Baolin Peng, Michel Galley, Pengcheng He, Hao Cheng, Yujia Xie, Yu Hu, Qiuyuan Huang, Lars Liden, Zhou Yu, Weizhu Chen, Jianfeng Gao* [[paper]](https://arxiv.org/abs/2302.12813) 2023.2
+
+1. **GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information**
+   *Qiao Jin, Yifan Yang, Qingyu Chen, Zhiyong Lu* [[paper]](https://arxiv.org/abs/2304.09667) 2023.4
 
 1. **Zero-shot Faithful Factual Error Correction**
    *Kung-Hsiang Huang, Hou Pong Chan, Heng Ji* [[paper]](https://arxiv.org/abs/2305.07982) 2023.5
