@@ -54,6 +54,8 @@ This kind of hallucination denotes the model response deviates from the *user in
   *Joshua Maynez, Shashi Narayan, Bernd Bohnet, Ryan McDonald*[[paper]](https://arxiv.org/abs/2005.00661) 2020.5
   + **Hallucinated but Factual! Inspecting the Factuality of Hallucinations in Abstractive Summarization**
   *Meng Cao, Yue Dong, Jackie Chi Kit Cheung*[[paper]](https://arxiv.org/abs/2109.09784) 2021.9
+  + **Summarization is (Almost) Dead**
+  *Xiao Pu, Mingqi Gao, Xiaojun Wan*[[paper]](https://arxiv.org/abs/2309.09558) 2023.9
 + `Dialogue`:
   + **Neural Path Hunter: Reducing Hallucination in Dialogue Systems via Path Grounding**
   *Nouha Dziri, Andrea Madotto, Osmar Zaiane, Avishek Joey Bose*[[paper]](https://arxiv.org/abs/2104.08455) 2021.4
@@ -190,6 +192,12 @@ There is also a line of works that try to explain the hallucination with LLMs.
 1. **Simple synthetic data reduces sycophancy in large language models**
    *Jerry Wei, Da Huang, Yifeng Lu, Denny Zhou, Quoc V. Le* [[paper]](https://arxiv.org/abs/2308.03958) 2023.8
 
+1. **Do PLMs Know and Understand Ontological Knowledge?**
+   *Weiqi Wu, Chengyue Jiang, Yong Jiang, Pengjun Xie, Kewei Tu* [[paper]](https://arxiv.org/abs/2309.05936) 2023.9
+
+1. **Exploring the Relationship between LLM Hallucinations and Prompt Linguistic Nuances: Readability, Formality, and Concreteness**
+   *Vipula Rawte, Prachi Priya, S.M Towhidul Islam Tonmoy, S M Mehedi Zaman, Amit Sheth, Amitava Das* [[paper]](https://arxiv.org/abs/2309.11064) 2023.9
+
 
 ## 🛠Mitigation of LLM Hallucination
 Numerous recent work tries to mitigate hallucination in LLMs. These methods can be applied at different stages of LLM life cycle.
@@ -230,6 +238,8 @@ Some researchers claim that the behavior cloning phenomenon in SFT can induce ha
    *Hunter Lightman, Vineet Kosaraju, Yura Burda, Harri Edwards, Bowen Baker, Teddy Lee, Jan Leike, John Schulman, Ilya Sutskever, Karl Cobbe* [[paper]](https://arxiv.org/abs/2305.20050) 2023.5
 1. **Reinforcement learning from human feedback: Progress and challenges**
    *John Schulman* [[talk]](https://arxiv.org/abs/2305.20050) 2023.5
+1. **Fine-Grained Human Feedback Gives Better Rewards for Language Model Training**
+   *Zeqiu Wu, Yushi Hu, Weijia Shi, Nouha Dziri, Alane Suhr, Prithviraj Ammanabrolu, Noah A. Smith, Mari Ostendorf, Hannaneh Hajishirzi* [[talk]](https://arxiv.org/abs/2306.01693) 2023.6
       
 ### Mitigation During Inference
 #### Designing Decode Strategy
@@ -250,6 +260,9 @@ Some researchers claim that the behavior cloning phenomenon in SFT can induce ha
 
 1. **Mitigating Hallucinations and Off-target Machine Translation with Source-Contrastive and Language-Contrastive Decoding**
    *Rico Sennrich, Jannis Vamvas, Alireza Mohammadshahi* [[paper]](https://arxiv.org/abs/2309.07098) 2023.9
+
+1. **Chain-of-Verification Reduces Hallucination in Large Language Models**
+   *Shehzaad Dhuliawala, Mojtaba Komeili, Jing Xu, Roberta Raileanu, Xian Li, Asli Celikyilmaz, Jason Weston* [[paper]](https://arxiv.org/abs/2309.11495) 2023.9
    
 #### Resorting to External Knowledge
 1. **RARR: Researching and Revising What Language Models Say, Using Language Models**
@@ -331,6 +344,9 @@ Some researchers claim that the behavior cloning phenomenon in SFT can induce ha
 
 1. **Inference-Time Intervention: Eliciting Truthful Answers from a Language Model**
    *Kenneth Li, Oam Patel, Fernanda Viégas, Hanspeter Pfister, Martin Wattenberg* [[paper]](https://arxiv.org/abs/2306.03341) 2023.6
+
+1. **Knowledge Sanitization of Large Language Models**
+   *Yoichi Ishibashi, Hidetoshi Shimodaira* [[paper]](https://arxiv.org/abs/2309.11852) 2023.9
 
 ## 📲Contact
 We warmly welcome any kinds of useful suggestions or contributions. Feel free to drop us an issue or contact Hill with [this e-mail](mailto:hillzhang1999@qq.com).
