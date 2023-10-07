@@ -56,6 +56,8 @@ This kind of hallucination denotes the model response deviates from the *user in
   *Meng Cao, Yue Dong, Jackie Chi Kit Cheung*[[paper]](https://arxiv.org/abs/2109.09784) 2021.9
   + **Summarization is (Almost) Dead**
   *Xiao Pu, Mingqi Gao, Xiaojun Wan*[[paper]](https://arxiv.org/abs/2309.09558) 2023.9
+  + **Hallucination Reduction in Long Input Text Summarization**
+  *Tohida Rehman, Ronit Mandal, Abhishek Agarwal, Debarshi Kumar Sanyal*[[paper]](https://browse.arxiv.org/abs/2309.16781) 2023.9
 + `Dialogue`:
   + **Neural Path Hunter: Reducing Hallucination in Dialogue Systems via Path Grounding**
   *Nouha Dziri, Andrea Madotto, Osmar Zaiane, Avishek Joey Bose*[[paper]](https://arxiv.org/abs/2104.08455) 2021.4
@@ -136,7 +138,6 @@ This kind of hallucination means the generated content conflicts with *establish
       
 1. **Fact-Checking of AI-Generated Reports**
    *Razi Mahmood, Ge Wang, Mannudeep Kalra, Pingkun Yan* [[paper]](https://arxiv.org/abs/2307.14634) 2023.7
-
       
 1. **Med-HALT: Medical Domain Hallucination Test for Large Language Models**
    *Logesh Kumar Umapathi, Ankit Pal, Malaikannan Sankarasubbu* [[paper]](https://arxiv.org/abs/2307.15343) 2023.7
@@ -146,8 +147,26 @@ This kind of hallucination means the generated content conflicts with *establish
    *Fan Gao, Hang Jiang, Moritz Blum, Jinghui Lu, Yuang Jiang, Irene Li* [[paper]](https://arxiv.org/abs/2308.10410) 2023.8
       
 1. **ChatGPT Hallucinates when Attributing Answers**
-   
    *Guido Zuccon, Bevan Koopman, Razia Shaik* [[paper]](https://arxiv.org/abs/2309.09401) 2023.9
+      
+1. **BAMBOO: A Comprehensive Benchmark for Evaluating Long Text Modeling Capacities of Large Language Models**
+   *Zican Dong, Tianyi Tang, Junyi Li, Wayne Xin Zhao, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2309.13345) 2023.9
+      
+1. **KLoB: a Benchmark for Assessing Knowledge Locating Methods in Language Models**
+   *Yiming Ju, Zheng Zhang* [[paper]](https://arxiv.org/abs/2309.16535) 2023.9
+         
+1. **AutoHall: Automated Hallucination Dataset Generation for Large Language Models**
+   *Zouying Cao, Yifei Yang, Hai Zhao* [[paper]](https://arxiv.org/abs/2310.00259) 2023.10
+   
+1. **FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation**
+   *Tu Vu, Mohit Iyyer, Xuezhi Wang, Noah Constant, Jerry Wei, Jason Wei, Chris Tar, Yun-Hsuan Sung, Denny Zhou, Quoc Le, Thang Luong* [[paper]](https://arxiv.org/abs/2310.03214) 2023.10
+   
+1. **Evaluating Hallucinations in Chinese Large Language Models**
+   *Qinyuan Cheng, Tianxiang Sun, Wenwei Zhang, Siyin Wang, Xiangyang Liu, Mozhi Zhang, Junliang He, Mianqiu Huang, Zhangyue Yin, Kai Chen, Xipeng Qiu* [[paper]](https://arxiv.org/abs/2310.03368) 2023.10
+   
+1. **FELM: Benchmarking Factuality Evaluation of Large Language Models**
+   *Shiqi Chen, Yiran Zhao, Jinghan Zhang, I-Chun Chern, Siyang Gao, Pengfei Liu, Junxian He* [[paper]](https://arxiv.org/abs/2310.00741) 2023.10
+
 
 ## 🚨Source of LLM Hallucination
 There is also a line of works that try to explain the hallucination with LLMs.
@@ -198,7 +217,9 @@ There is also a line of works that try to explain the hallucination with LLMs.
 1. **Exploring the Relationship between LLM Hallucinations and Prompt Linguistic Nuances: Readability, Formality, and Concreteness**
    *Vipula Rawte, Prachi Priya, S.M Towhidul Islam Tonmoy, S M Mehedi Zaman, Amit Sheth, Amitava Das* [[paper]](https://arxiv.org/abs/2309.11064) 2023.9
 
-
+1. **LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples**
+   *Jia-Yu Yao, Kun-Peng Ning, Zhen-Hui Liu, Mu-Nan Ning, Li Yuan* [[paper]](https://arxiv.org/abs/2310.01469) 2023.10
+   
 ## 🛠Mitigation of LLM Hallucination
 Numerous recent work tries to mitigate hallucination in LLMs. These methods can be applied at different stages of LLM life cycle.
 ### Mitigation During Pretraining
@@ -239,8 +260,15 @@ Some researchers claim that the behavior cloning phenomenon in SFT can induce ha
 1. **Reinforcement learning from human feedback: Progress and challenges**
    *John Schulman* [[talk]](https://arxiv.org/abs/2305.20050) 2023.5
 1. **Fine-Grained Human Feedback Gives Better Rewards for Language Model Training**
-   *Zeqiu Wu, Yushi Hu, Weijia Shi, Nouha Dziri, Alane Suhr, Prithviraj Ammanabrolu, Noah A. Smith, Mari Ostendorf, Hannaneh Hajishirzi* [[talk]](https://arxiv.org/abs/2306.01693) 2023.6
-      
+   *Zeqiu Wu, Yushi Hu, Weijia Shi, Nouha Dziri, Alane Suhr, Prithviraj Ammanabrolu, Noah A. Smith, Mari Ostendorf, Hannaneh Hajishirzi* [[paper]](https://arxiv.org/abs/2306.01693) 2023.6
+1. **Aligning Large Multimodal Models with Factually Augmented RLHF**
+   *Zhiqing Sun, Sheng Shen, Shengcao Cao, Haotian Liu, Chunyuan Li, Yikang Shen, Chuang Gan, Liang-Yan Gui, Yu-Xiong Wang, Yiming Yang, Kurt Keutzer, Trevor Darrell* [[paper]](https://arxiv.org/abs/2309.14525) 2023.9
+1. **Human Feedback is not Gold Standard**
+   *Tom Hosking, Phil Blunsom, Max Bartolo* [[paper]](https://arxiv.org/abs/2309.16349) 2023.9
+1. **Tool-Augmented Reward Modeling**
+   *Lei Li, Yekun Chai, Shuohuan Wang, Yu Sun, Hao Tian, Ningyu Zhang, Hua Wu* [[paper]](https://arxiv.org/abs/2310.01045) 2023.10
+   
+   
 ### Mitigation During Inference
 #### Designing Decode Strategy
 1. **Factuality Enhanced Language Models for Open-Ended Text Generation**
@@ -300,7 +328,13 @@ Some researchers claim that the behavior cloning phenomenon in SFT can induce ha
 
 1. **"Merge Conflicts!" Exploring the Impacts of External Distractors to Parametric Knowledge Graphs**
    *Cheng Qian, Xinran Zhao, Sherry Tongshuang Wu* [[paper]](https://arxiv.org/abs/2309.08594) 2023.9
+         
+1. **BTR: Binary Token Representations for Efficient Retrieval Augmented Language Models**
+   *Qingqing Cao, Sewon Min, Yizhong Wang, Hannaneh Hajishirzi* [[paper]](https://arxiv.org/abs/2310.01329) 2023.10
    
+1. **FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation**
+   *Tu Vu, Mohit Iyyer, Xuezhi Wang, Noah Constant, Jerry Wei, Jason Wei, Chris Tar, Yun-Hsuan Sung, Denny Zhou, Quoc Le, Thang Luong* [[paper]](https://arxiv.org/abs/2310.03214) 2023.10
+
 #### Exploiting Uncertainty
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**
    *Potsawee Manakul, Adian Liusie, Mark J. F. Gales* [[paper]](https://arxiv.org/abs/2303.08896) 2023.3
@@ -320,6 +354,8 @@ Some researchers claim that the behavior cloning phenomenon in SFT can induce ha
 1. **Zero-Resource Hallucination Prevention for Large Language Models**
    *Junyu Luo, Cao Xiao, Fenglong Ma* [[paper]](https://arxiv.org/abs/2309.02654) 2023.9
 
+1. **Attention Satisfies: A Constraint-Satisfaction Lens on Factual Errors of Language Models**
+   *Mert Yuksekgonul, Varun Chandrasekaran, Erik Jones, Suriya Gunasekar, Ranjita Naik, Hamid Palangi, Ece Kamar, Besmira Nushi* [[paper]](https://arxiv.org/abs/2309.15098) 2023.9
 
 #### Multi-agent Interaction
 1. **Improving Factuality and Reasoning in Language Models through Multiagent Debate**
