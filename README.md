@@ -170,7 +170,7 @@ This kind of hallucination means the generated content conflicts with *establish
 1. **A New Benchmark and Reverse Validation Method for Passage-level Hallucination Detection**
    *Shiping Yang, Renliang Sun, Xiaojun Wan* [[paper]](https://arxiv.org/abs/2310.06498) 2023.10
       
-1. **A New Benchmark and Reverse Validation Method for Passage-level Hallucination Detection**
+1. **Do Large Language Models Know about Facts?**
    *Xuming Hu, Junzhe Chen, Xiaochuan Li, Yufei Guo, Lijie Wen, Philip S. Yu, Zhijiang Guo* [[paper]](https://arxiv.org/abs/2310.05177) 2023.10
 
 ## 🚨Source of LLM Hallucination
@@ -233,9 +233,9 @@ There is also a line of works that try to explain the hallucination with LLMs.
    
 1. **The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets**
    *Samuel Marks, Max Tegmark* [[paper]](https://arxiv.org/abs/2310.06824) 2023.10
-      
-1. **A New Benchmark and Reverse Validation Method for Passage-level Hallucination Detection**
-   *Shiping Yang, Renliang Sun, Xiaojun Wan* [[paper]](https://arxiv.org/abs/2310.06498) 2023.10
+
+1. **Representation Engineering: A Top-Down Approach to AI Transparency**
+   *Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J. Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, J. Zico Kolter, Dan Hendrycks* [[paper]](https://arxiv.org/abs/2310.01405) 2023.10
    
 ## 🛠Mitigation of LLM Hallucination
 Numerous recent work tries to mitigate hallucination in LLMs. These methods can be applied at different stages of LLM life cycle.
