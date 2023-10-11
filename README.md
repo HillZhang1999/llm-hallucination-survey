@@ -166,7 +166,12 @@ This kind of hallucination means the generated content conflicts with *establish
    
 1. **FELM: Benchmarking Factuality Evaluation of Large Language Models**
    *Shiqi Chen, Yiran Zhao, Jinghan Zhang, I-Chun Chern, Siyang Gao, Pengfei Liu, Junxian He* [[paper]](https://arxiv.org/abs/2310.00741) 2023.10
-
+   
+1. **A New Benchmark and Reverse Validation Method for Passage-level Hallucination Detection**
+   *Shiping Yang, Renliang Sun, Xiaojun Wan* [[paper]](https://arxiv.org/abs/2310.06498) 2023.10
+      
+1. **A New Benchmark and Reverse Validation Method for Passage-level Hallucination Detection**
+   *Xuming Hu, Junzhe Chen, Xiaochuan Li, Yufei Guo, Lijie Wen, Philip S. Yu, Zhijiang Guo* [[paper]](https://arxiv.org/abs/2310.05177) 2023.10
 
 ## 🚨Source of LLM Hallucination
 There is also a line of works that try to explain the hallucination with LLMs.
@@ -219,6 +224,18 @@ There is also a line of works that try to explain the hallucination with LLMs.
 
 1. **LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples**
    *Jia-Yu Yao, Kun-Peng Ning, Zhen-Hui Liu, Mu-Nan Ning, Li Yuan* [[paper]](https://arxiv.org/abs/2310.01469) 2023.10
+
+1. **Factuality Challenges in the Era of Large Language Models**
+   *Isabelle Augenstein, Timothy Baldwin, Meeyoung Cha, Tanmoy Chakraborty, Giovanni Luca Ciampaglia, David Corney, Renee DiResta, Emilio Ferrara, Scott Hale, Alon Halevy, Eduard Hovy, Heng Ji, Filippo Menczer, Ruben Miguez, Preslav Nakov, Dietram Scheufele, Shivam Sharma, Giovanni Zagni* [[paper]](https://arxiv.org/abs/2310.05189) 2023.10
+   
+1. **The Troubling Emergence of Hallucination in Large Language Models -- An Extensive Definition, Quantification, and Prescriptive Remediations**
+   *Vipula Rawte, Swagata Chakraborty, Agnibh Pathak, Anubhav Sarkar, S.M Towhidul Islam Tonmoy, Aman Chadha, Amit P. Sheth, Amitava Das* [[paper]](https://arxiv.org/abs/2310.04988) 2023.10
+   
+1. **The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets**
+   *Samuel Marks, Max Tegmark* [[paper]](https://arxiv.org/abs/2310.06824) 2023.10
+      
+1. **A New Benchmark and Reverse Validation Method for Passage-level Hallucination Detection**
+   *Shiping Yang, Renliang Sun, Xiaojun Wan* [[paper]](https://arxiv.org/abs/2310.06498) 2023.10
    
 ## 🛠Mitigation of LLM Hallucination
 Numerous recent work tries to mitigate hallucination in LLMs. These methods can be applied at different stages of LLM life cycle.
@@ -248,6 +265,10 @@ Mitigating hallucination during SFT can involve curating SFT data, such as:
 Some researchers claim that the behavior cloning phenomenon in SFT can induce hallucinations. So some works try to mitigate hallucinations via *honesty-oriented SFT*.
 1. **MOSS: Training Conversational Language Models from Synthetic Data**
    *Tianxiang Sun and Xiaotian Zhang and Zhengfu He and Peng Li and Qinyuan Cheng and Hang Yan and Xiangyang Liu and Yunfan Shao and Qiong Tang and Xingjian Zhao and Ke Chen and Yining Zheng and Zhejian Zhou and Ruixiao Li and Jun Zhan and Yunhua Zhou and Linyang Li and Xiaogui Yang and Lingling Wu and Zhangyue Yin and Xuanjing Huang and Xipeng Qiu* [[repo]](https://github.com/OpenLMLab/MOSS) 2023
+
+An interesting new work proposed tuning LLMs on some synthetic tasks, which they found can also reduce hallucinations.
+1. **Teaching Language Models to Hallucinate Less with Synthetic Tasks**
+   *Erik Jones, Hamid Palangi, Clarisse Simões, Varun Chandrasekaran, Subhabrata Mukherjee, Arindam Mitra, Ahmed Awadallah, Ece Kamar* [[paper]](https://arxiv.org/abs/2310.06827) 2023.10
 
 ### Mitigation During RLHF
 
@@ -357,6 +378,9 @@ Some researchers claim that the behavior cloning phenomenon in SFT can induce ha
 1. **Attention Satisfies: A Constraint-Satisfaction Lens on Factual Errors of Language Models**
    *Mert Yuksekgonul, Varun Chandrasekaran, Erik Jones, Suriya Gunasekar, Ranjita Naik, Hamid Palangi, Ece Kamar, Besmira Nushi* [[paper]](https://arxiv.org/abs/2309.15098) 2023.9
 
+1. **Improving the Reliability of Large Language Models by Leveraging Uncertainty-Aware In-Context Learning**
+   *Yuchen Yang, Houqiang Li, Yanfeng Wang, Yu Wang* [[paper]](https://arxiv.org/abs/2310.04782) 2023.10
+
 #### Multi-agent Interaction
 1. **Improving Factuality and Reasoning in Language Models through Multiagent Debate**
    *Yilun Du, Shuang Li, Antonio Torralba, Joshua B. Tenenbaum, Igor Mordatch* [[paper]](https://arxiv.org/abs/2305.14325) 2023.5
@@ -371,6 +395,9 @@ Some researchers claim that the behavior cloning phenomenon in SFT can induce ha
 1. **Mitigating Language Model Hallucination with Interactive Question-Knowledge Alignment**
    *Shuo Zhang, Liangming Pan, Junzhou Zhao, William Yang Wang* [[paper]](https://arxiv.org/abs/2305.13669) 2023.5
 
+1. **Automatic and Human-AI Interactive Text Generation**
+   *Yao Dou, Philippe Laban, Claire Gardent, Wei Xu* [[paper]](https://arxiv.org/abs/2310.03878) 2023.10
+
 #### Analyzing Internal Model States
 1. **The Internal State of an LLM Knows When its Lying**
    *Amos Azaria, Tom Mitchell* [[paper]](https://arxiv.org/abs/2304.13734) 2023.4
@@ -383,6 +410,9 @@ Some researchers claim that the behavior cloning phenomenon in SFT can induce ha
 
 1. **Knowledge Sanitization of Large Language Models**
    *Yoichi Ishibashi, Hidetoshi Shimodaira* [[paper]](https://arxiv.org/abs/2309.11852) 2023.9
+
+1. **Representation Engineering: A Top-Down Approach to AI Transparency**
+   *Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J. Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, J. Zico Kolter, Dan Hendrycks* [[paper]](https://arxiv.org/abs/2310.01405) 2023.10
 
 ## 📲Contact
 We warmly welcome any kinds of useful suggestions or contributions. Feel free to drop us an issue or contact Hill with [this e-mail](mailto:hillzhang1999@qq.com).
