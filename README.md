@@ -175,6 +175,15 @@ This kind of hallucination means the generated content conflicts with *establish
 
 1. **Beyond Factuality: A Comprehensive Evaluation of Large Language Models as Knowledge Generators**
    *Liang Chen, Yang Deng, Yatao Bian, Zeyu Qin, Bingzhe Wu, Tat-Seng Chua, Kam-Fai Wong* [[paper]](https://arxiv.org/abs/2310.07289) 2023.10
+   
+1. **Unveiling the Siren's Song: Towards Reliable Fact-Conflicting Hallucination Detection**
+   *Xiang Chen, Duanzheng Song, Honghao Gui, Chengxi Wang, Ningyu Zhang, Fei Huang, Chengfei Lv, Dan Zhang, Huajun Chen* [[paper]](https://arxiv.org/abs/2310.12086) 2023.10
+      
+1. **Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models**
+   *Jirui Qi, Raquel Fernández, Arianna Bisazza* [[paper]](https://arxiv.org/abs/2310.10378) 2023.10
+         
+1. **Automatic Hallucination Assessment for Aligned Large Language Models via Transferable Adversarial Attacks**
+   *Xiaodong Yu, Hao Cheng, Xiaodong Liu, Dan Roth, Jianfeng Gao* [[paper]](https://arxiv.org/abs/2310.12516) 2023.10
 
 ## 🚨Source of LLM Hallucination
 There is also a line of works that try to explain the hallucination with LLMs.
@@ -319,6 +328,9 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
 1. **Chain-of-Verification Reduces Hallucination in Large Language Models**
    *Shehzaad Dhuliawala, Mojtaba Komeili, Jing Xu, Roberta Raileanu, Xian Li, Asli Celikyilmaz, Jason Weston* [[paper]](https://arxiv.org/abs/2309.11495) 2023.9
    
+1. **KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection**
+   *Sehyun Choi, Tianqing Fang, Zhaowei Wang, Yangqiu Song* [[paper]](https://arxiv.org/abs/2310.09044) 2023.10
+   
 #### Resorting to External Knowledge
 1. **RARR: Researching and Revising What Language Models Say, Using Language Models**
    *Luyu Gao, Zhuyun Dai, Panupong Pasupat, Anthony Chen, Arun Tejasvi Chaganty, Yicheng Fan, Vincent Y. Zhao, Ni Lao, Hongrae Lee, Da-Cheng Juan, Kelvin Guu* [[paper]](https://arxiv.org/abs/2210.08726) 2022.10
@@ -397,6 +409,9 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
 1. **Unleashing Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration**
    *Zhenhailong Wang, Shaoguang Mao, Wenshan Wu, Tao Ge, Furu Wei, Heng Ji* [[paper]](https://arxiv.org/abs/2307.05300) 2023.7
    
+1. **Theory of Mind for Multi-Agent Collaboration via Large Language Models**
+   *Huao Li, Yu Quan Chong, Simon Stepputtis, Joseph Campbell, Dana Hughes, Michael Lewis, Katia Sycara* [[paper]](https://arxiv.org/abs/2310.10701) 2023.10
+   
 #### Human-in-the-loop
 1. **Mitigating Language Model Hallucination with Interactive Question-Knowledge Alignment**
    *Shuo Zhang, Liangming Pan, Junzhou Zhao, William Yang Wang* [[paper]](https://arxiv.org/abs/2305.13669) 2023.5
@@ -422,30 +437,3 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
 
 ## 📲Contact
 We warmly welcome any kinds of useful suggestions or contributions. Feel free to drop us an issue or contact Hill with [this e-mail](mailto:hillzhang1999@qq.com).
-
-
-   
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
