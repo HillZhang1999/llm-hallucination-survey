@@ -251,6 +251,12 @@ There is also a line of works that try to explain the hallucination with LLMs.
 
 1. **Beyond Factuality: A Comprehensive Evaluation of Large Language Models as Knowledge Generators**
    *Liang Chen, Yang Deng, Yatao Bian, Zeyu Qin, Bingzhe Wu, Tat-Seng Chua, Kam-Fai Wong* [[paper]](https://arxiv.org/abs/2310.07289) 2023.10
+
+1. **Language Models Hallucinate, but May Excel at Fact Verification**
+   *Jian Guan, Jesse Dodge, David Wadden, Minlie Huang, Hao Peng* [[paper]](https://arxiv.org/abs/2310.14564) 2023.10
+   
+1. **Large Language Models Help Humans Verify Truthfulness -- Except When They Are Convincingly Wrong**
+   *Chenglei Si, Navita Goyal, Sherry Tongshuang Wu, Chen Zhao, Shi Feng, Hal Daumé III, Jordan Boyd-Graber* [[paper]](https://arxiv.org/abs/2310.12558) 2023.10
    
 ## 🛠Mitigation of LLM Hallucination
 Numerous recent work tries to mitigate hallucination in LLMs. These methods can be applied at different stages of LLM life cycle.
@@ -276,6 +282,9 @@ Mitigating hallucination during SFT can involve curating SFT data, such as:
    *Yihan Cao, Yanbin Kang, Lichao Sun* [[paper]](https://arxiv.org/abs/2307.06290) 2023.7
 1. **Halo: Estimation and Reduction of Hallucinations in Open-Source Weak Large Language Models**
    *Mohamed Elaraby, Mengyin Lu, Jacob Dunn, Xueying Zhang, Yu Wang, Shizhu Liu* [[paper]](https://arxiv.org/abs/2308.11764v2) 2023.8
+1. **Specialist or Generalist? Instruction Tuning for Specific NLP Tasks**
+   *Chufan Shi, Yixuan Su, Cheng Yang, Yujiu Yang, Deng Cai* [[paper]](https://arxiv.org/abs/2310.15326) 2023.10
+   
 
 Some researchers claim that the behavior cloning phenomenon in SFT can induce hallucinations. So some works try to mitigate hallucinations via *honesty-oriented SFT*.
 1. **MOSS: Training Conversational Language Models from Synthetic Data**
@@ -330,6 +339,12 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
    
 1. **KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection**
    *Sehyun Choi, Tianqing Fang, Zhaowei Wang, Yangqiu Song* [[paper]](https://arxiv.org/abs/2310.09044) 2023.10
+      
+1. **Fidelity-Enriched Contrastive Search: Reconciling the Faithfulness-Diversity Trade-Off in Text Generation**
+   *Wei-Lin Chen, Cheng-Kuang Wu, Hsin-Hsi Chen, Chung-Chi Chen* [[paper]](https://arxiv.org/abs/2310.14981) 2023.10
+      
+1. **An Emulator for Fine-Tuning Large Language Models using Small Language Models**
+   *Eric Mitchell, Rafael Rafailov, Archit Sharma, Chelsea Finn, Christopher D. Manning* [[paper]](https://arxiv.org/abs/2310.12962) 2023.10
    
 #### Resorting to External Knowledge
 1. **RARR: Researching and Revising What Language Models Say, Using Language Models**
@@ -373,6 +388,9 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
    
 1. **FreshLLMs: Refreshing Large Language Models with Search Engine Augmentation**
    *Tu Vu, Mohit Iyyer, Xuezhi Wang, Noah Constant, Jerry Wei, Jason Wei, Chris Tar, Yun-Hsuan Sung, Denny Zhou, Quoc Le, Thang Luong* [[paper]](https://arxiv.org/abs/2310.03214) 2023.10
+   
+1. **FLEEK: Factual Error Detection and Correction with Evidence Retrieved from External Knowledge**
+   *Farima Fatahi Bayat, Kun Qian, Benjamin Han, Yisi Sang, Anton Belyi, Samira Khorshidi, Fei Wu, Ihab F. Ilyas, Yunyao Li* [[paper]](https://arxiv.org/abs/2310.17119) 2023.10
 
 #### Exploiting Uncertainty
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**
