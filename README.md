@@ -184,6 +184,9 @@ This kind of hallucination means the generated content conflicts with *establish
          
 1. **Automatic Hallucination Assessment for Aligned Large Language Models via Transferable Adversarial Attacks**
    *Xiaodong Yu, Hao Cheng, Xiaodong Liu, Dan Roth, Jianfeng Gao* [[paper]](https://arxiv.org/abs/2310.12516) 2023.10
+            
+1. **Creating Trustworthy LLMs: Dealing with Hallucinations in Healthcare AI**
+   *Muhammad Aurangzeb Ahmad, Ilker Yaramis, Taposh Dutta Roy* [[paper]](https://arxiv.org/abs/2311.01463) 2023.10
 
 ## 🚨Source of LLM Hallucination
 There is also a line of works that try to explain the hallucination with LLMs.
@@ -345,6 +348,13 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
       
 1. **An Emulator for Fine-Tuning Large Language Models using Small Language Models**
    *Eric Mitchell, Rafael Rafailov, Archit Sharma, Chelsea Finn, Christopher D. Manning* [[paper]](https://arxiv.org/abs/2310.12962) 2023.10
+                  
+1. **Critic-Driven Decoding for Mitigating Hallucinations in Data-to-text Generation**
+   *Mateusz Lango, Ondřej Dušek* [[paper]](https://arxiv.org/abs/2310.16964) 2023.10
+   
+1. **Correction with Backtracking Reduces Hallucination in Summarization**
+   *Zhenzhen Liu, Chao Wan, Varsha Kishore, Jin Peng Zhou, Minmin Chen, Kilian Q. Weinberger* [[paper]](https://arxiv.org/abs/2310.16176) 2023.11
+
    
 #### Resorting to External Knowledge
 1. **RARR: Researching and Revising What Language Models Say, Using Language Models**
@@ -391,6 +401,12 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
    
 1. **FLEEK: Factual Error Detection and Correction with Evidence Retrieved from External Knowledge**
    *Farima Fatahi Bayat, Kun Qian, Benjamin Han, Yisi Sang, Anton Belyi, Samira Khorshidi, Fei Wu, Ihab F. Ilyas, Yunyao Li* [[paper]](https://arxiv.org/abs/2310.17119) 2023.10
+   
+1. **Evaluating the Effectiveness of Retrieval-Augmented Large Language Models in Scientific Document Reasoning**
+   *Sai Munikoti, Anurag Acharya, Sridevi Wagle, Sameera Horawalavithana* [[paper]](https://arxiv.org/abs/2311.04348) 2023.11
+      
+1. **Learn to Refuse: Making Large Language Models More Controllable and Reliable through Knowledge Scope Limitation and Refusal Mechanism**
+   *Lang Cao* [[paper]](https://arxiv.org/abs/2311.01041) 2023.11
 
 #### Exploiting Uncertainty
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**
@@ -416,7 +432,16 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
 
 1. **Improving the Reliability of Large Language Models by Leveraging Uncertainty-Aware In-Context Learning**
    *Yuchen Yang, Houqiang Li, Yanfeng Wang, Yu Wang* [[paper]](https://arxiv.org/abs/2310.04782) 2023.10
-
+   
+1. **N-Critics: Self-Refinement of Large Language Models with Ensemble of Critics**
+   *Sajad Mousavi, Ricardo Luna Gutiérrez, Desik Rengarajan, Vineet Gundecha, Ashwin Ramesh Babu, Avisek Naug, Antonio Guillen, Soumyendu Sarkar* [[paper]](https://arxiv.org/abs/2310.18679) 2023.10
+      
+1. **Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection**
+   *Akari Asai, Zeqiu Wu, Yizhong Wang, Avirup Sil, Hannaneh Hajishirzi* [[paper]](https://arxiv.org/abs/2310.11511) 2023.10
+   
+1. **SAC3: Reliable Hallucination Detection in Black-Box Language Models via Semantic-aware Cross-check Consistency**
+   *Jiaxin Zhang, Zhuohang Li, Kamalika Das, Bradley A. Malin, Sricharan Kumar* [[paper]](https://arxiv.org/abs/2311.01740) 2023.11
+   
 #### Multi-agent Interaction
 1. **Improving Factuality and Reasoning in Language Models through Multiagent Debate**
    *Yilun Du, Shuang Li, Antonio Torralba, Joshua B. Tenenbaum, Igor Mordatch* [[paper]](https://arxiv.org/abs/2305.14325) 2023.5
@@ -429,6 +454,9 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
    
 1. **Theory of Mind for Multi-Agent Collaboration via Large Language Models**
    *Huao Li, Yu Quan Chong, Simon Stepputtis, Joseph Campbell, Dana Hughes, Michael Lewis, Katia Sycara* [[paper]](https://arxiv.org/abs/2310.10701) 2023.10
+      
+1. **N-Critics: Self-Refinement of Large Language Models with Ensemble of Critics**
+   *Sajad Mousavi, Ricardo Luna Gutiérrez, Desik Rengarajan, Vineet Gundecha, Ashwin Ramesh Babu, Avisek Naug, Antonio Guillen, Soumyendu Sarkar* [[paper]](https://arxiv.org/abs/2310.18679) 2023.10
    
 #### Human-in-the-loop
 1. **Mitigating Language Model Hallucination with Interactive Question-Knowledge Alignment**
