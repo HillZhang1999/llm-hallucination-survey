@@ -260,6 +260,9 @@ There is also a line of works that try to explain the hallucination with LLMs.
    
 1. **Large Language Models Help Humans Verify Truthfulness -- Except When They Are Convincingly Wrong**
    *Chenglei Si, Navita Goyal, Sherry Tongshuang Wu, Chen Zhao, Shi Feng, Hal Daumé III, Jordan Boyd-Graber* [[paper]](https://arxiv.org/abs/2310.12558) 2023.10
+      
+1. **Insights into Classifying and Mitigating LLMs' Hallucinations**
+   *Alessandro Bruno, Pier Luigi Mazzeo, Aladine Chetouani, Marouane Tliba, Mohamed Amine Kerkouri* [[paper]](https://arxiv.org/abs/2311.08117) 2023.11
    
 ## 🛠Mitigation of LLM Hallucination
 Numerous recent work tries to mitigate hallucination in LLMs. These methods can be applied at different stages of LLM life cycle.
@@ -287,6 +290,8 @@ Mitigating hallucination during SFT can involve curating SFT data, such as:
    *Mohamed Elaraby, Mengyin Lu, Jacob Dunn, Xueying Zhang, Yu Wang, Shizhu Liu* [[paper]](https://arxiv.org/abs/2308.11764v2) 2023.8
 1. **Specialist or Generalist? Instruction Tuning for Specific NLP Tasks**
    *Chufan Shi, Yixuan Su, Cheng Yang, Yujiu Yang, Deng Cai* [[paper]](https://arxiv.org/abs/2310.15326) 2023.10
+1. **Fine-tuning Language Models for Factuality**
+   *Katherine Tian, Eric Mitchell, Huaxiu Yao, Christopher D. Manning, Chelsea Finn* [[paper]](https://arxiv.org/abs/2311.08401) 2023.11
    
 
 Some researchers claim that the behavior cloning phenomenon in SFT can induce hallucinations. So some works try to mitigate hallucinations via *honesty-oriented SFT*.
@@ -407,6 +412,12 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
       
 1. **Learn to Refuse: Making Large Language Models More Controllable and Reliable through Knowledge Scope Limitation and Refusal Mechanism**
    *Lang Cao* [[paper]](https://arxiv.org/abs/2311.01041) 2023.11
+         
+1. **Learning to Filter Context for Retrieval-Augmented Generation**
+   *Zhiruo Wang, Jun Araki, Zhengbao Jiang, Md Rizwan Parvez, Graham Neubig* [[paper]](https://arxiv.org/abs/2311.08377) 2023.11
+            
+1. **KTRL+F: Knowledge-Augmented In-Document Search**
+   *Hanseok Oh, Haebin Shin, Miyoung Ko, Hyunji Lee, Minjoon Seo* [[paper]](https://arxiv.org/abs/2311.08329) 2023.11
 
 #### Exploiting Uncertainty
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**
@@ -441,6 +452,9 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
    
 1. **SAC3: Reliable Hallucination Detection in Black-Box Language Models via Semantic-aware Cross-check Consistency**
    *Jiaxin Zhang, Zhuohang Li, Kamalika Das, Bradley A. Malin, Sricharan Kumar* [[paper]](https://arxiv.org/abs/2311.01740) 2023.11
+
+1. **LM-Polygraph: Uncertainty Estimation for Language Models**
+   *Ekaterina Fadeeva, Roman Vashurin, Akim Tsvigun, Artem Vazhentsev, Sergey Petrakov, Kirill Fedyanin, Daniil Vasilev, Elizaveta Goncharova, Alexander Panchenko, Maxim Panov, Timothy Baldwin, Artem Shelmanov* [[paper]](https://arxiv.org/abs/2311.07383) 2023.11
    
 #### Multi-agent Interaction
 1. **Improving Factuality and Reasoning in Language Models through Multiagent Debate**
