@@ -199,6 +199,12 @@ This kind of hallucination means the generated content conflicts with *establish
    
 1. **UHGEval: Benchmarking the Hallucination of Chinese Large Language Models via Unconstrained Generation**
    *Xun Liang, Shichao Song, Simin Niu, Zhiyu Li, Feiyu Xiong, Bo Tang, Zhaohui Wy, Dawei He, Peng Cheng, Zhonghao Wang, Haiying Deng* [[paper]](https://arxiv.org/abs/2311.15296) 2023.11
+   
+1. **DelucionQA: Detecting Hallucinations in Domain-specific Question Answering**
+   *Mobashir Sadat, Zhengyu Zhou, Lukas Lange, Jun Araki, Arsalan Gundroo, Bingqing Wang, Rakesh R Menon, Md Rizwan Parvez, Zhe Feng* [[paper]](https://arxiv.org/abs/2312.05200) 2023.12
+   
+1. **Are Large Language Models Good Fact Checkers: A Preliminary Study**
+   *Han Cao, Lingwei Wei, Mengyang Chen, Wei Zhou, Songlin Hu* [[paper]](https://arxiv.org/abs/2311.17355) 2023.11
 
 ## 🚨Source of LLM Hallucination
 There is also a line of works that try to explain the hallucination with LLMs.
@@ -284,6 +290,12 @@ There is also a line of works that try to explain the hallucination with LLMs.
                
 1. **Calibrated Language Models Must Hallucinate**
    *Adam Tauman Kalai, Santosh S. Vempala* [[paper]](https://arxiv.org/abs/2311.14648) 2023.11
+                  
+1. **Beyond Surface: Probing LLaMA Across Scales and Layers**
+   *Nuo Chen, Ning Wu, Shining Liang, Ming Gong, Linjun Shou, Dongmei Zhang, Jia Li* [[paper]](https://arxiv.org/abs/2312.04333) 2023.12
+                
+1. **HALO: An Ontology for Representing Hallucinations in Generative Models**
+   *Navapat Nananukul, Mayank Kejriwal* [[paper]](https://arxiv.org/abs/2312.05209) 2023.12
    
 ## 🛠Mitigation of LLM Hallucination
 Numerous recent work tries to mitigate hallucination in LLMs. These methods can be applied at different stages of LLM life cycle.
@@ -387,6 +399,9 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
    
 1. **Chain-of-Note: Enhancing Robustness in Retrieval-Augmented Language Models**
    *Wenhao Yu, Hongming Zhang, Xiaoman Pan, Kaixin Ma, Hongwei Wang, Dong Yu* [[paper]](https://arxiv.org/abs/2311.09210) 2023.11
+      
+1. **Unlocking Anticipatory Text Generation: A Constrained Approach for Faithful Decoding with Large Language Models**
+   *Lifu Tu, Semih Yavuz, Jin Qu, Jiacheng Xu, Rui Meng, Caiming Xiong, Yingbo Zhou* [[paper]](https://arxiv.org/abs/2312.06149) 2023.12
    
 #### Resorting to External Knowledge
 1. **RARR: Researching and Revising What Language Models Say, Using Language Models**
@@ -536,6 +551,10 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
 
 1. **Representation Engineering: A Top-Down Approach to AI Transparency**
    *Andy Zou, Long Phan, Sarah Chen, James Campbell, Phillip Guo, Richard Ren, Alexander Pan, Xuwang Yin, Mantas Mazeika, Ann-Kathrin Dombrowski, Shashwat Goel, Nathaniel Li, Michael J. Byun, Zifan Wang, Alex Mallen, Steven Basart, Sanmi Koyejo, Dawn Song, Matt Fredrikson, J. Zico Kolter, Dan Hendrycks* [[paper]](https://arxiv.org/abs/2310.01405) 2023.10
+
+1. **Weakly Supervised Detection of Hallucinations in LLM Activations**
+   *Miriam Rateike, Celia Cintas, John Wamburu, Tanya Akumu, Skyler Speakman* [[paper]](https://arxiv.org/abs/2312.02798) 2023.12
+   
 
 ## 📲Contact
 We warmly welcome any kinds of useful suggestions or contributions. Feel free to drop us an issue or contact Hill with [this e-mail](mailto:hillzhang1999@qq.com).
