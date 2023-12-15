@@ -44,7 +44,10 @@ This kind of hallucination denotes the model response deviates from the *user in
    *Katherine Lee, Orhan Firat, Ashish Agarwal, Clara Fannjiang, David Sussillo* [[paper]](https://openreview.net/forum?id=SkxJ-309FQ) 2018.9
   + **Looking for a Needle in a Haystack: A Comprehensive Study of Hallucinations in Neural Machine Translation**
   *Nuno M. Guerreiro, Elena Voita, André F.T. Martins* [[paper]](https://arxiv.org/abs/2208.05309) 2022.8
-  + **Detecting and Mitigating Hallucinations in Machine Translation: Model Internal Workings Alone Do Well, Sentence Similarity Even Better***David Dale, Elena Voita, Loïc Barrault, Marta R. Costa-jussà*[[paper]](https://arxiv.org/abs/2212.08597) 2022.12
+  + **Detecting and Mitigating Hallucinations in Machine Translation: Model Internal Workings Alone Do Well, Sentence Similarity Even Better**
+  *David Dale, Elena Voita, Loïc Barrault, Marta R. Costa-jussà* [[paper]](https://arxiv.org/abs/2212.08597) 2022.12
+  + **HalOmi: A Manually Annotated Benchmark for Multilingual Hallucination and Omission Detection in Machine Translation**
+  *David Dale, Elena Voita, Janice Lam, Prangthip Hansanti, Christophe Ropers, Elahe Kalbassi, Cynthia Gao, Loïc Barrault, Marta R. Costa-jussà* [[paper]](https://arxiv.org/abs/2305.11746) 2023.05
 + `Data-to-text`:
   + **Controlling Hallucinations at Word Level in Data-to-Text Generation**
   *Clément Rebuffel, Marco Roberti, Laure Soulier, Geoffrey Scoutheeten, Rossella Cancelliere, Patrick Gallinari*[[paper]](https://arxiv.org/abs/2102.02810) 2021.2
