@@ -557,6 +557,9 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
 
 1. **Weakly Supervised Detection of Hallucinations in LLM Activations**
    *Miriam Rateike, Celia Cintas, John Wamburu, Tanya Akumu, Skyler Speakman* [[paper]](https://arxiv.org/abs/2312.02798) 2023.12
+
+1. **Do Androids Know They're Only Dreaming of Electric Sheep?**
+   *Sky CH-Wang, Benjamin Van Durme, Jason Eisner, Chris Kedzie* [[paper]](https://arxiv.org/abs/2312.17249) 2023.12
    
 
 ## 📲Contact
