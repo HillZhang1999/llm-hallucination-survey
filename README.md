@@ -561,5 +561,9 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
 1. **The Curious Case of Hallucinatory (Un)answerability: Finding Truths in the Hidden States of Over-Confident Large Language Models**
    *Aviv Slobodkin, Omer Goldman, Avi Caciularu, Ido Dagan, Shauli Ravfogel* [[paper]](https://aclanthology.org/2023.emnlp-main.220/) 2023.12
 
+1. **Do Androids Know They're Only Dreaming of Electric Sheep?**
+   *Sky CH-Wang, Benjamin Van Durme, Jason Eisner, Chris Kedzie* [[paper]](https://arxiv.org/abs/2312.17249) 2023.12
+   
+
 ## 📲Contact
 We warmly welcome any kinds of useful suggestions or contributions. Feel free to drop us an issue or contact Hill with [this e-mail](mailto:hillzhang1999@qq.com).
