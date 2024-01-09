@@ -434,6 +434,9 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
 1. **Augmented Large Language Models with Parametric Knowledge Guiding**
    *Ziyang Luo, Can Xu, Pu Zhao, Xiubo Geng, Chongyang Tao, Jing Ma, Qingwei Lin, Daxin Jiang* [[paper]](https://arxiv.org/abs/2305.04757) 2023.5
 
+1. **WikiChat: Stopping the Hallucination of Large Language Model Chatbots by Few-Shot Grounding on Wikipedia**
+   *Sina J. Semnani, Violet Z. Yao, Heidi C. Zhang, Monica S. Lam* [[paper]](https://arxiv.org/abs/2305.14292) [[repo]](https://github.com/stanford-oval/WikiChat) 2023.5
+
 1. **FacTool: Factuality Detection in Generative AI -- A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios**
    *I-Chun Chern, Steffi Chern, Shiqi Chen, Weizhe Yuan, Kehua Feng, Chunting Zhou, Junxian He, Graham Neubig, Pengfei Liu* [[paper]](https://arxiv.org/abs/2307.13528) 2023.7
 
