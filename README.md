@@ -208,6 +208,9 @@ This kind of hallucination means the generated content conflicts with *establish
    
 1. **Are Large Language Models Good Fact Checkers: A Preliminary Study**
    *Han Cao, Lingwei Wei, Mengyang Chen, Wei Zhou, Songlin Hu* [[paper]](https://arxiv.org/abs/2311.17355) 2023.11
+   
+1. **RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models**
+   *Yuanhao Wu, Juno Zhu, Siliang Xu, Kashun Shum, Cheng Niu, Randy Zhong, Juntong Song, Tong Zhang* [[paper]](https://arxiv.org/abs/2401.00396) 2024.01
 
 ## 🚨Source of LLM Hallucination
 There is also a line of works that try to explain the hallucination with LLMs.
@@ -299,6 +302,12 @@ There is also a line of works that try to explain the hallucination with LLMs.
                 
 1. **HALO: An Ontology for Representing Hallucinations in Generative Models**
    *Navapat Nananukul, Mayank Kejriwal* [[paper]](https://arxiv.org/abs/2312.05209) 2023.12
+                   
+1. **Fine-Tuning or Retrieval? Comparing Knowledge Injection in LLMs**
+   *Oded Ovadia, Menachem Brief, Moshik Mishaeli, Oren Elisha* [[paper]](https://arxiv.org/abs/2312.05934) 2023.12
+                      
+1. **The Dawn After the Dark: An Empirical Study on Factuality Hallucination in Large Language Models**
+   *Junyi Li, Jie Chen, Ruiyang Ren, Xiaoxue Cheng, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2401.03205) 2024.01
    
 ## 🛠Mitigation of LLM Hallucination
 Numerous recent work tries to mitigate hallucination in LLMs. These methods can be applied at different stages of LLM life cycle.
@@ -332,6 +341,8 @@ Mitigating hallucination during SFT can involve curating SFT data, such as:
    *Hanning Zhang, Shizhe Diao, Yong Lin, Yi R. Fung, Qing Lian, Xingyao Wang, Yangyi Chen, Heng Ji, Tong Zhang* [[paper]](https://arxiv.org/abs/2311.09677) 2023.11
 1. **Dial BeInfo for Faithfulness: Improving Factuality of Information-Seeking Dialogue via Behavioural Fine-Tuning**
    *Evgeniia Razumovskaia, Ivan Vulić, Pavle Marković, Tomasz Cichy, Qian Zheng, Tsung-Hsien Wen, Paweł Budzianowski* [[paper]](https://arxiv.org/abs/2311.09800) 2023.11
+1. **Supervised Knowledge Makes Large Language Models Better In-context Learners**
+   *Linyi Yang, Shuibai Zhang, Zhuohao Yu, Guangsheng Bao, Yidong Wang, Jindong Wang, Ruochen Xu, Wei Ye, Xing Xie, Weizhu Chen, Yue Zhang* [[paper]](https://arxiv.org/abs/2312.15918) 2023.12
    
 
 Some researchers claim that the behavior cloning phenomenon in SFT can induce hallucinations. So some works try to mitigate hallucinations via *honesty-oriented SFT*.
@@ -405,7 +416,16 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
       
 1. **Unlocking Anticipatory Text Generation: A Constrained Approach for Faithful Decoding with Large Language Models**
    *Lifu Tu, Semih Yavuz, Jin Qu, Jiacheng Xu, Rui Meng, Caiming Xiong, Yingbo Zhou* [[paper]](https://arxiv.org/abs/2312.06149) 2023.12
+                 
+1. **Context-aware Decoding Reduces Hallucination in Query-focused Summarization**
+   *Zhichao Xu* [[paper]](https://arxiv.org/abs/2312.14335) 2023.12
+              
+1. **Alleviating Hallucinations of Large Language Models through Induced Hallucinations**
+   *Yue Zhang, Leyang Cui, Wei Bi, Shuming Shi* [[paper]](https://arxiv.org/abs/2312.15710) 2023.12
    
+1. **SH2: Self-Highlighted Hesitation Helps You Decode More Truthfully**
+   *Jushi Kai, Tianhang Zhang, Hai Hu, Zhouhan Lin* [[paper]](https://arxiv.org/abs/2401.05930) 2024.01
+
 #### Resorting to External Knowledge
 1. **RARR: Researching and Revising What Language Models Say, Using Language Models**
    *Luyu Gao, Zhuyun Dai, Panupong Pasupat, Anthony Chen, Arun Tejasvi Chaganty, Yicheng Fan, Vincent Y. Zhao, Ni Lao, Hongrae Lee, Da-Cheng Juan, Kelvin Guu* [[paper]](https://arxiv.org/abs/2210.08726) 2022.10
@@ -476,6 +496,9 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
 1. **Minimizing Factual Inconsistency and Hallucination in Large Language Models**
    *Muneeswaran I, Shreya Saxena, Siva Prasad, M V Sai Prakash, Advaith Shankar, Varun V, Vishal Vaddina, Saisubramaniam Gopalakrishnan* [[paper]](https://arxiv.org/abs/2311.13878) 2023.11
 
+1. **Seven Failure Points When Engineering a Retrieval Augmented Generation System**
+   *Scott Barnett, Stefanus Kurniawan, Srikanth Thudumu, Zach Brannelly, Mohamed Abdelrazek* [[paper]](https://arxiv.org/abs/2401.05856) 2024.01
+
 #### Exploiting Uncertainty
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**
    *Potsawee Manakul, Adian Liusie, Mark J. F. Gales* [[paper]](https://arxiv.org/abs/2303.08896) 2023.3
@@ -534,6 +557,9 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
       
 1. **N-Critics: Self-Refinement of Large Language Models with Ensemble of Critics**
    *Sajad Mousavi, Ricardo Luna Gutiérrez, Desik Rengarajan, Vineet Gundecha, Ashwin Ramesh Babu, Avisek Naug, Antonio Guillen, Soumyendu Sarkar* [[paper]](https://arxiv.org/abs/2310.18679) 2023.10
+         
+1. **Red Teaming for Large Language Models At Scale: Tackling Hallucinations on Mathematics Tasks**
+   *Aleksander Buszydlik, Karol Dobiczek, Michał Teodor Okoń, Konrad Skublicki, Philip Lippmann, Jie Yang* [[paper]](https://arxiv.org/abs/2401.00290) 2024.01
    
 #### Human-in-the-loop
 1. **Mitigating Language Model Hallucination with Interactive Question-Knowledge Alignment**
@@ -567,6 +593,14 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
 1. **Do Androids Know They're Only Dreaming of Electric Sheep?**
    *Sky CH-Wang, Benjamin Van Durme, Jason Eisner, Chris Kedzie* [[paper]](https://arxiv.org/abs/2312.17249) 2023.12
    
-
+1. **Truth Forest: Toward Multi-Scale Truthfulness in Large Language Models through Intervention without Tuning**
+   *Zhongzhi Chen, Xingwu Sun, Xianfeng Jiao, Fengzong Lian, Zhanhui Kang, Di Wang, Cheng-Zhong Xu* [[paper]](https://arxiv.org/abs/2312.17484) 2023.12
+   
+1. **On Early Detection of Hallucinations in Factual Question Answering**
+   *Ben Snyder, Marius Moisescu, Muhammad Bilal Zafar* [[paper]](https://arxiv.org/abs/2312.14183) 2023.12
+      
+1. **Reducing LLM Hallucinations using Epistemic Neural Networks**
+   *Shreyas Verma, Kien Tran, Yusuf Ali, Guangyu Min* [[paper]](https://arxiv.org/abs/2312.15576) 2023.12
+   
 ## 📲Contact
 We warmly welcome any kinds of useful suggestions or contributions. Feel free to drop us an issue or contact Hill with [this e-mail](mailto:hillzhang1999@qq.com).
