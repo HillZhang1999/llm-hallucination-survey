@@ -308,6 +308,9 @@ There is also a line of works that try to explain the hallucination with LLMs.
                       
 1. **The Dawn After the Dark: An Empirical Study on Factuality Hallucination in Large Language Models**
    *Junyi Li, Jie Chen, Ruiyang Ren, Xiaoxue Cheng, Wayne Xin Zhao, Jian-Yun Nie, Ji-Rong Wen* [[paper]](https://arxiv.org/abs/2401.03205) 2024.01
+
+1. **Hallucination is Inevitable: An Innate Limitation of Large Language Models**
+   *Ziwei Xu, Sanjay Jain, Mohan Kankanhalli* [[paper]](https://arxiv.org/abs/2401.11817) 2024.01
    
 ## 🛠Mitigation of LLM Hallucination
 Numerous recent work tries to mitigate hallucination in LLMs. These methods can be applied at different stages of LLM life cycle.
@@ -343,6 +346,10 @@ Mitigating hallucination during SFT can involve curating SFT data, such as:
    *Evgeniia Razumovskaia, Ivan Vulić, Pavle Marković, Tomasz Cichy, Qian Zheng, Tsung-Hsien Wen, Paweł Budzianowski* [[paper]](https://arxiv.org/abs/2311.09800) 2023.11
 1. **Supervised Knowledge Makes Large Language Models Better In-context Learners**
    *Linyi Yang, Shuibai Zhang, Zhuohao Yu, Guangsheng Bao, Yidong Wang, Jindong Wang, Ruochen Xu, Wei Ye, Xing Xie, Weizhu Chen, Yue Zhang* [[paper]](https://arxiv.org/abs/2312.15918) 2023.12
+1. **Alignment for Honesty**
+   *Yuqing Yang, Ethan Chern, Xipeng Qiu, Graham Neubig, Pengfei Liu* [[paper]](https://arxiv.org/abs/2312.07000) 2023.12
+1. **Mitigating Hallucinations of Large Language Models via Knowledge Consistent Alignment**
+   *Fanqi Wan, Xinting Huang, Leyang Cui, Xiaojun Quan, Wei Bi, Shuming Shi* [[paper]](https://arxiv.org/abs/2401.10768) 2024.01
    
 
 Some researchers claim that the behavior cloning phenomenon in SFT can induce hallucinations. So some works try to mitigate hallucinations via *honesty-oriented SFT*.
@@ -371,7 +378,7 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
    *Tom Hosking, Phil Blunsom, Max Bartolo* [[paper]](https://arxiv.org/abs/2309.16349) 2023.9
 1. **Tool-Augmented Reward Modeling**
    *Lei Li, Yekun Chai, Shuohuan Wang, Yu Sun, Hao Tian, Ningyu Zhang, Hua Wu* [[paper]](https://arxiv.org/abs/2310.01045) 2023.10
-   
+
    
 ### Mitigation During Inference
 #### Designing Decode Strategy
