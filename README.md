@@ -51,8 +51,10 @@ This kind of hallucination denotes the model response deviates from the *user in
 + `Data-to-text`:
   + **Controlling Hallucinations at Word Level in Data-to-Text Generation**
   *Clément Rebuffel, Marco Roberti, Laure Soulier, Geoffrey Scoutheeten, Rossella Cancelliere, Patrick Gallinari*[[paper]](https://arxiv.org/abs/2102.02810) 2021.2
-  + **On Hallucination and Predictive Uncertainty in Conditional Language Generation***Yijun Xiao, William Yang Wang*[[paper]](https://arxiv.org/abs/2103.15025) 2021.3
-  + **Faithful Low-Resource Data-to-Text Generation through Cycle Training***Zhuoer Wang, Marcus Collins, Nikhita Vedula, Simone Filice, Shervin Malmasi, Oleg Rokhlenko*[[paper]](https://aclanthology.org/2023.acl-long.160/) 2023.7
+  + **On Hallucination and Predictive Uncertainty in Conditional Language Generation**
+  *Yijun Xiao, William Yang Wang*[[paper]](https://arxiv.org/abs/2103.15025) 2021.3
+  + **Faithful Low-Resource Data-to-Text Generation through Cycle Training**
+  *Zhuoer Wang, Marcus Collins, Nikhita Vedula, Simone Filice, Shervin Malmasi, Oleg Rokhlenko*[[paper]](https://aclanthology.org/2023.acl-long.160/) 2023.7
 + `Summarization`:
   + **On Faithfulness and Factuality in Abstractive Summarization**
   *Joshua Maynez, Shashi Narayan, Bernd Bohnet, Ryan McDonald*[[paper]](https://arxiv.org/abs/2005.00661) 2020.5
