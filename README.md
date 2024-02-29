@@ -506,6 +506,9 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
 1. **Seven Failure Points When Engineering a Retrieval Augmented Generation System**
    *Scott Barnett, Stefanus Kurniawan, Srikanth Thudumu, Zach Brannelly, Mohamed Abdelrazek* [[paper]](https://arxiv.org/abs/2401.05856) 2024.01
 
+1. **Retrieval-Based Prompt Selection for Code-Related Few-Shot Learning**
+   *Nashid Noor, Mifta Santaha, Ali Mesbah* [[paper]](https://people.ece.ubc.ca/amesbah/resources/papers/cedar-icse23.pdf) 2023.04
+
 #### Exploiting Uncertainty
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**
    *Potsawee Manakul, Adian Liusie, Mark J. F. Gales* [[paper]](https://arxiv.org/abs/2303.08896) 2023.3
