@@ -363,6 +363,10 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
 1. **Teaching Language Models to Hallucinate Less with Synthetic Tasks**
    *Erik Jones, Hamid Palangi, Clarisse Simões, Varun Chandrasekaran, Subhabrata Mukherjee, Arindam Mitra, Ahmed Awadallah, Ece Kamar* [[paper]](https://arxiv.org/abs/2310.06827) 2023.10
 
+Recent work suggests that hallucinations can also be mitigated by leveraging unlabeled/unpaired data with cycle training:
+1. **Faithful Low-Resource Data-to-Text Generation through Cycle Training**
+  *Zhuoer Wang, Marcus Collins, Nikhita Vedula, Simone Filice, Shervin Malmasi, Oleg Rokhlenko*[[paper]](https://aclanthology.org/2023.acl-long.160/) 2023.7
+
 ### Mitigation During RLHF
 
 1. **Training language models to follow instructions with human feedback**
