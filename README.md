@@ -51,7 +51,10 @@ This kind of hallucination denotes the model response deviates from the *user in
 + `Data-to-text`:
   + **Controlling Hallucinations at Word Level in Data-to-Text Generation**
   *Clément Rebuffel, Marco Roberti, Laure Soulier, Geoffrey Scoutheeten, Rossella Cancelliere, Patrick Gallinari*[[paper]](https://arxiv.org/abs/2102.02810) 2021.2
-  + **On Hallucination and Predictive Uncertainty in Conditional Language Generation***Yijun Xiao, William Yang Wang*[[paper]](https://arxiv.org/abs/2103.15025) 2021.3
+  + **On Hallucination and Predictive Uncertainty in Conditional Language Generation**
+  *Yijun Xiao, William Yang Wang*[[paper]](https://arxiv.org/abs/2103.15025) 2021.3
+  + **Faithful Low-Resource Data-to-Text Generation through Cycle Training**
+  *Zhuoer Wang, Marcus Collins, Nikhita Vedula, Simone Filice, Shervin Malmasi, Oleg Rokhlenko*[[paper]](https://aclanthology.org/2023.acl-long.160/) 2023.7
 + `Summarization`:
   + **On Faithfulness and Factuality in Abstractive Summarization**
   *Joshua Maynez, Shashi Narayan, Bernd Bohnet, Ryan McDonald*[[paper]](https://arxiv.org/abs/2005.00661) 2020.5
@@ -359,6 +362,10 @@ Some researchers claim that the behavior cloning phenomenon in SFT can induce ha
 An interesting new work proposed tuning LLMs on some synthetic tasks, which they found can also reduce hallucinations.
 1. **Teaching Language Models to Hallucinate Less with Synthetic Tasks**
    *Erik Jones, Hamid Palangi, Clarisse Simões, Varun Chandrasekaran, Subhabrata Mukherjee, Arindam Mitra, Ahmed Awadallah, Ece Kamar* [[paper]](https://arxiv.org/abs/2310.06827) 2023.10
+
+Recent work suggests that hallucinations can also be mitigated by leveraging unlabeled/unpaired data with cycle training:
+1. **Faithful Low-Resource Data-to-Text Generation through Cycle Training**
+  *Zhuoer Wang, Marcus Collins, Nikhita Vedula, Simone Filice, Shervin Malmasi, Oleg Rokhlenko*[[paper]](https://aclanthology.org/2023.acl-long.160/) 2023.7
 
 ### Mitigation During RLHF
 
