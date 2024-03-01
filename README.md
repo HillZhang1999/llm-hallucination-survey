@@ -433,6 +433,9 @@ An interesting new work proposed tuning LLMs on some synthetic tasks, which they
 1. **SH2: Self-Highlighted Hesitation Helps You Decode More Truthfully**
    *Jushi Kai, Tianhang Zhang, Hai Hu, Zhouhan Lin* [[paper]](https://arxiv.org/abs/2401.05930) 2024.01
 
+1. **TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space**
+   *Shaolei Zhang, Tian Yu, Yang Feng* [[paper]](https://arxiv.org/abs/2402.17811) 2024.02
+
 #### Resorting to External Knowledge
 1. **RARR: Researching and Revising What Language Models Say, Using Language Models**
    *Luyu Gao, Zhuyun Dai, Panupong Pasupat, Anthony Chen, Arun Tejasvi Chaganty, Yicheng Fan, Vincent Y. Zhao, Ni Lao, Hongrae Lee, Da-Cheng Juan, Kelvin Guu* [[paper]](https://arxiv.org/abs/2210.08726) 2022.10
