@@ -66,12 +66,16 @@ This kind of hallucination denotes the model response deviates from the *user in
   *Tohida Rehman, Ronit Mandal, Abhishek Agarwal, Debarshi Kumar Sanyal*[[paper]](https://browse.arxiv.org/abs/2309.16781) 2023.9
   + **Lighter, yet More Faithful: Investigating Hallucinations in Pruned Large Language Models for Abstractive Summarization**
   *George Chrysostomou, Zhixue Zhao, Miles Williams, Nikolaos Aletras*[[paper]](https://arxiv.org/abs/2311.09335) 2023.11
+  + **TofuEval: Evaluating Hallucinations of LLMs on Topic-Focused Dialogue Summarization**
+  *Liyan Tang, Igor Shalyminov, Amy Wing-mei Wong, Jon Burnsky, Jake W. Vincent, Yu'an Yang, Siffi Singh, Song Feng, Hwanjun Song, Hang Su, Lijia Sun, Yi Zhang, Saab Mansour, Kathleen McKeown*[[paper]](https://arxiv.org/abs/2402.13249) 2024.02
 
 + `Dialogue`:
   + **Neural Path Hunter: Reducing Hallucination in Dialogue Systems via Path Grounding**
   *Nouha Dziri, Andrea Madotto, Osmar Zaiane, Avishek Joey Bose*[[paper]](https://arxiv.org/abs/2104.08455) 2021.4
   + **RHO: Reducing Hallucination in Open-domain Dialogues with Knowledge Grounding**
   *Ziwei Ji, Zihan Liu, Nayeon Lee, Tiezheng Yu, Bryan Wilie, Min Zeng, Pascale Fung*[[paper]](https://aclanthology.org/2023.findings-acl.275) 2023.7
+  + **DiaHalu: A Dialogue-level Hallucination Evaluation Benchmark for Large Language Models**
+  *Kedi Chen, Qin Chen, Jie Zhou, Yishen He, Liang He*[[paper]](https://arxiv.org/abs/2403.00896) 2024.3
 + `Question Answering`:
   + **Entity-Based Knowledge Conflicts in Question Answering**
   *Shayne Longpre, Kartik Perisetla, Anthony Chen, Nikhil Ramesh, Chris DuBois, Sameer Singh*[[paper]](https://arxiv.org/abs/2109.05052) 2021.9
@@ -214,6 +218,12 @@ This kind of hallucination means the generated content conflicts with *establish
    
 1. **RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models**
    *Yuanhao Wu, Juno Zhu, Siliang Xu, Kashun Shum, Cheng Niu, Randy Zhong, Juntong Song, Tong Zhang* [[paper]](https://arxiv.org/abs/2401.00396) 2024.01
+   
+1. **Measuring and Reducing LLM Hallucination without Gold-Standard Answers via Expertise-Weighting**
+   *Jiaheng Wei, Yuanshun Yao, Jean-Francois Ton, Hongyi Guo, Andrew Estornell, Yang Liu* [[paper]](https://arxiv.org/abs/2402.10412) 2024.02
+      
+1. **In Search of Truth: An Interrogation Approach to Hallucination Detection**
+   *Yakir Yehuda, Itzik Malkiel, Oren Barkan, Jonathan Weill, Royi Ronen, Noam Koenigstein* [[paper]](https://arxiv.org/abs/2403.02889) 2024.03
 
 ## 🚨Source of LLM Hallucination
 There is also a line of works that try to explain the hallucination with LLMs.
@@ -353,6 +363,8 @@ Mitigating hallucination during SFT can involve curating SFT data, such as:
    *Yuqing Yang, Ethan Chern, Xipeng Qiu, Graham Neubig, Pengfei Liu* [[paper]](https://arxiv.org/abs/2312.07000) 2023.12
 1. **Mitigating Hallucinations of Large Language Models via Knowledge Consistent Alignment**
    *Fanqi Wan, Xinting Huang, Leyang Cui, Xiaojun Quan, Wei Bi, Shuming Shi* [[paper]](https://arxiv.org/abs/2401.10768) 2024.01
+1. **Gotcha! Don't trick me with unanswerable questions! Self-aligning Large Language Models for Responding to Unknown Questions**
+   *Yang Deng, Yong Zhao, Moxin Li, See-Kiong Ng, Tat-Seng Chua* [[paper]](https://arxiv.org/abs/2402.15062) 2024.02
    
 
 Some researchers claim that the behavior cloning phenomenon in SFT can induce hallucinations. So some works try to mitigate hallucinations via *honesty-oriented SFT*.
@@ -443,6 +455,9 @@ Recent work suggests that hallucinations can also be mitigated by leveraging unl
 1. **TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space**
    *Shaolei Zhang, Tian Yu, Yang Feng* [[paper]](https://arxiv.org/abs/2402.17811) 2024.02
 
+1. **In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation**
+   *Shiqi Chen, Miao Xiong, Junteng Liu, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He* [[paper]](https://arxiv.org/abs/2403.01548) 2024.03
+
 #### Resorting to External Knowledge
 1. **RARR: Researching and Revising What Language Models Say, Using Language Models**
    *Luyu Gao, Zhuyun Dai, Panupong Pasupat, Anthony Chen, Arun Tejasvi Chaganty, Yicheng Fan, Vincent Y. Zhao, Ni Lao, Hongrae Lee, Da-Cheng Juan, Kelvin Guu* [[paper]](https://arxiv.org/abs/2210.08726) 2022.10
@@ -450,6 +465,9 @@ Recent work suggests that hallucinations can also be mitigated by leveraging unl
 1. **Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback**
    *Baolin Peng, Michel Galley, Pengcheng He, Hao Cheng, Yujia Xie, Yu Hu, Qiuyuan Huang, Lars Liden, Zhou Yu, Weizhu Chen, Jianfeng Gao* [[paper]](https://arxiv.org/abs/2302.12813) 2023.2
 
+1. **Retrieval-Based Prompt Selection for Code-Related Few-Shot Learning**
+   *Nashid Noor, Mifta Santaha, Ali Mesbah* [[paper]](https://people.ece.ubc.ca/amesbah/resources/papers/cedar-icse23.pdf) 2023.04
+   
 1. **GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information**
    *Qiao Jin, Yifan Yang, Qingyu Chen, Zhiyong Lu* [[paper]](https://arxiv.org/abs/2304.09667) 2023.4
 
@@ -516,9 +534,15 @@ Recent work suggests that hallucinations can also be mitigated by leveraging unl
 1. **Seven Failure Points When Engineering a Retrieval Augmented Generation System**
    *Scott Barnett, Stefanus Kurniawan, Srikanth Thudumu, Zach Brannelly, Mohamed Abdelrazek* [[paper]](https://arxiv.org/abs/2401.05856) 2024.01
 
-1. **Retrieval-Based Prompt Selection for Code-Related Few-Shot Learning**
-   *Nashid Noor, Mifta Santaha, Ali Mesbah* [[paper]](https://people.ece.ubc.ca/amesbah/resources/papers/cedar-icse23.pdf) 2023.04
+1. **When Do LLMs Need Retrieval Augmentation? Mitigating LLMs' Overconfidence Helps Retrieval Augmentation**
+   *Shiyu Ni, Keping Bi, Jiafeng Guo, Xueqi Cheng* [[paper]](https://arxiv.org/abs/2402.11457) 2024.02
 
+1. **Retrieve Only When It Needs: Adaptive Retrieval Augmentation for Hallucination Mitigation in Large Language Models**
+   *Hanxing Ding, Liang Pang, Zihao Wei, Huawei Shen, Xueqi Cheng* [[paper]](https://arxiv.org/abs/2402.10612) 2024.02
+
+1. **RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation**
+   *Zihao Wang, Anji Liu, Haowei Lin, Jiaqi Li, Xiaojian Ma, Yitao Liang* [[paper]](https://arxiv.org/abs/2403.05313) 2024.03
+   
 #### Exploiting Uncertainty
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**
    *Potsawee Manakul, Adian Liusie, Mark J. F. Gales* [[paper]](https://arxiv.org/abs/2303.08896) 2023.3
