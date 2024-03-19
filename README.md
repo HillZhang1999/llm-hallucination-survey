@@ -221,9 +221,24 @@ This kind of hallucination means the generated content conflicts with *establish
    
 1. **Measuring and Reducing LLM Hallucination without Gold-Standard Answers via Expertise-Weighting**
    *Jiaheng Wei, Yuanshun Yao, Jean-Francois Ton, Hongyi Guo, Andrew Estornell, Yang Liu* [[paper]](https://arxiv.org/abs/2402.10412) 2024.02
-      
+               
+1. **Multi-FAct: Assessing Multilingual LLMs' Multi-Regional Knowledge using FActScore**
+   *Sheikh Shafayat, Eunsu Kim, Juhyun Oh, Alice Oh* [[paper]](https://arxiv.org/abs/2402.18045) 2024.02
+                  
+1. **Comparing Hallucination Detection Metrics for Multilingual Generation**
+   *Haoqiang Kang, Terra Blevins, Luke Zettlemoyer* [[paper]](https://arxiv.org/abs/2402.10496) 2024.02
+   
 1. **In Search of Truth: An Interrogation Approach to Hallucination Detection**
    *Yakir Yehuda, Itzik Malkiel, Oren Barkan, Jonathan Weill, Royi Ronen, Noam Koenigstein* [[paper]](https://arxiv.org/abs/2403.02889) 2024.03
+      
+1. **HaluEval-Wild: Evaluating Hallucinations of Language Models in the Wild**
+   *Zhiying Zhu, Zhiqing Sun, Yiming Yang* [[paper]](https://arxiv.org/abs/2403.04307) 2024.03
+         
+1. **Benchmarking Hallucination in Large Language Models based on Unanswerable Math Word Problem**
+   *Yuhong Sun, Zhangyue Yin, Qipeng Guo, Jiawen Wu, Xipeng Qiu, Hui Zhao* [[paper]](https://arxiv.org/abs/2403.03558) 2024.03
+         
+1. **DEE: Dual-stage Explainable Evaluation Method for Text Generation**
+   *Shenyu Zhang, Yu Li, Rui Wu, Xiutian Huang, Yongrui Chen, Wenhao Xu, Guilin Qi* [[paper]](https://arxiv.org/abs/2403.11509) 2024.03
 
 ## 🚨Source of LLM Hallucination
 There is also a line of works that try to explain the hallucination with LLMs.
@@ -542,6 +557,9 @@ Recent work suggests that hallucinations can also be mitigated by leveraging unl
 
 1. **RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation**
    *Zihao Wang, Anji Liu, Haowei Lin, Jiaqi Li, Xiaojian Ma, Yitao Liang* [[paper]](https://arxiv.org/abs/2403.05313) 2024.03
+ 
+1. **Truth-Aware Context Selection: Mitigating the Hallucinations of Large Language Models Being Misled by Untruthful Contexts**
+   *Tian Yu, Shaolei Zhang, Yang Feng* [[paper]](https://arxiv.org/abs/2403.07556) 2024.03
    
 #### Exploiting Uncertainty
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**
@@ -585,7 +603,10 @@ Recent work suggests that hallucinations can also be mitigated by leveraging unl
 
 1. **RELIC: Investigating Large Language Model Responses using Self-Consistency**
    *Furui Cheng, Vilém Zouhar, Simran Arora, Mrinmaya Sachan, Hendrik Strobelt, Mennatallah El-Assady* [[paper]](https://arxiv.org/abs/2311.16842) 2023.11
-   
+  
+1. **Fact-Checking the Output of Large Language Models via Token-Level Uncertainty Quantification**
+   *Ekaterina Fadeeva, Aleksandr Rubashevskii, Artem Shelmanov, Sergey Petrakov, Haonan Li, Hamdy Mubarak, Evgenii Tsymbalov, Gleb Kuzmin, Alexander Panchenko, Timothy Baldwin, Preslav Nakov, Maxim Panov* [[paper]](https://arxiv.org/abs/2403.04696) 2024.03
+    
 #### Multi-agent Interaction
 1. **Improving Factuality and Reasoning in Language Models through Multiagent Debate**
    *Yilun Du, Shuang Li, Antonio Torralba, Joshua B. Tenenbaum, Igor Mordatch* [[paper]](https://arxiv.org/abs/2305.14325) 2023.5
@@ -645,6 +666,12 @@ Recent work suggests that hallucinations can also be mitigated by leveraging unl
       
 1. **Reducing LLM Hallucinations using Epistemic Neural Networks**
    *Shreyas Verma, Kien Tran, Yusuf Ali, Guangyu Min* [[paper]](https://arxiv.org/abs/2312.15576) 2023.12
+         
+1. **HILL: A Hallucination Identifier for Large Language Models**
+   *Florian Leiser, Sven Eckhardt, Valentin Leuthe, Merlin Knaeble, Alexander Maedche, Gerhard Schwabe, Ali Sunyaev* [[paper]](https://arxiv.org/abs/2403.06710) 2024.03
+            
+1. **Unsupervised Real-Time Hallucination Detection based on the Internal States of Large Language Models**
+   *Weihang Su, Changyue Wang, Qingyao Ai, Yiran HU, Zhijing Wu, Yujia Zhou, Yiqun Liu* [[paper]](https://arxiv.org/abs/2403.06448) 2024.03
    
 ## 📲Contact
 We warmly welcome any kinds of useful suggestions or contributions. Feel free to drop us an issue or contact Hill with [this e-mail](mailto:hillzhang1999@qq.com).
