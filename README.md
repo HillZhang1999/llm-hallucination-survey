@@ -340,6 +340,12 @@ There is also a line of works that try to explain the hallucination with LLMs.
 1. **Hallucination is Inevitable: An Innate Limitation of Large Language Models**
    *Ziwei Xu, Sanjay Jain, Mohan Kankanhalli* [[paper]](https://arxiv.org/abs/2401.11817) 2024.01
    
+1. **Mechanisms of non-factual hallucinations in language models**
+   *Baolong Bi, Shenghua Liu, Yiwei Wang, Lingrui Mei, Xueqi Cheng* [[paper]](https://arxiv.org/abs/2404.00216) 2024.04
+      
+1. **Is Factuality Decoding a Free Lunch for LLMs? Evaluation on Knowledge Editing Benchmark**
+   *Baolong Bi, Shenghua Liu, Yiwei Wang, Lingrui Mei, Xueqi Cheng* [[paper]](https://arxiv.org/abs/2404.00216) 2024.04
+   
 ## 🛠Mitigation of LLM Hallucination
 Numerous recent work tries to mitigate hallucination in LLMs. These methods can be applied at different stages of LLM life cycle.
 ### Mitigation During Pretraining
@@ -472,6 +478,9 @@ Recent work suggests that hallucinations can also be mitigated by leveraging unl
 
 1. **In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation**
    *Shiqi Chen, Miao Xiong, Junteng Liu, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He* [[paper]](https://arxiv.org/abs/2403.01548) 2024.03
+   
+1. **Chain-of-Action: Faithful and Multimodal Question Answering through Large Language Models**
+   *Zhenyu Pan, Haozheng Luo, Manling Li, Han Liu* [[paper]](https://arxiv.org/abs/2403.17359) 2024.03
 
 #### Resorting to External Knowledge
 1. **RARR: Researching and Revising What Language Models Say, Using Language Models**
@@ -560,6 +569,12 @@ Recent work suggests that hallucinations can also be mitigated by leveraging unl
  
 1. **Truth-Aware Context Selection: Mitigating the Hallucinations of Large Language Models Being Misled by Untruthful Contexts**
    *Tian Yu, Shaolei Zhang, Yang Feng* [[paper]](https://arxiv.org/abs/2403.07556) 2024.03
+    
+1. **FACTOID: FACtual enTailment fOr hallucInation Detection**
+   *Vipula Rawte, S.M Towhidul Islam Tonmoy, Krishnav Rajbangshi, Shravani Nag, Aman Chadha, Amit P. Sheth, Amitava Das* [[paper]](https://arxiv.org/abs/2403.19113) 2024.03
+    
+1. **Rejection Improves Reliability: Training LLMs to Refuse Unknown Questions Using RL from Knowledge Feedback**
+   *Hongshen Xu, Zichen Zhu, Da Ma, Situo Zhang, Shuai Fan, Lu Chen, Kai Yu* [[paper]](https://arxiv.org/abs/2403.18349) 2024.03
    
 #### Exploiting Uncertainty
 1. **SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models**
@@ -672,6 +687,9 @@ Recent work suggests that hallucinations can also be mitigated by leveraging unl
             
 1. **Unsupervised Real-Time Hallucination Detection based on the Internal States of Large Language Models**
    *Weihang Su, Changyue Wang, Qingyao Ai, Yiran HU, Zhijing Wu, Yujia Zhou, Yiqun Liu* [[paper]](https://arxiv.org/abs/2403.06448) 2024.03
+               
+1. **On Large Language Models' Hallucination with Regard to Known Facts**
+   *Che Jiang, Biqing Qi, Xiangyu Hong, Dayuan Fu, Yang Cheng, Fandong Meng, Mo Yu, Bowen Zhou, Jie Zhou* [[paper]](https://arxiv.org/abs/2403.20009) 2024.03
    
 ## 📲Contact
 We warmly welcome any kinds of useful suggestions or contributions. Feel free to drop us an issue or contact Hill with [this e-mail](mailto:hillzhang1999@qq.com).
