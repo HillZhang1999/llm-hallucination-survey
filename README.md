@@ -240,6 +240,9 @@ This kind of hallucination means the generated content conflicts with *establish
 1. **DEE: Dual-stage Explainable Evaluation Method for Text Generation**
    *Shenyu Zhang, Yu Li, Rui Wu, Xiutian Huang, Yongrui Chen, Wenhao Xu, Guilin Qi* [[paper]](https://arxiv.org/abs/2403.11509) 2024.03
 
+1. **LLMs hallucinate graphs too: a structural perspective**
+   *Erwan Le Merrer, Gilles Tredan* [[paper]](https://arxiv.org/abs/2409.00159) 2024.09
+
 ## 🚨Source of LLM Hallucination
 There is also a line of works that try to explain the hallucination with LLMs.
 
