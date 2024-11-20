@@ -389,6 +389,8 @@ Mitigating hallucination during SFT can involve curating SFT data, such as:
    *Fanqi Wan, Xinting Huang, Leyang Cui, Xiaojun Quan, Wei Bi, Shuming Shi* [[paper]](https://arxiv.org/abs/2401.10768) 2024.01
 1. **Gotcha! Don't trick me with unanswerable questions! Self-aligning Large Language Models for Responding to Unknown Questions**
    *Yang Deng, Yong Zhao, Moxin Li, See-Kiong Ng, Tat-Seng Chua* [[paper]](https://arxiv.org/abs/2402.15062) 2024.02
+1. **Utilize the Flow before Stepping into the Same River Twice: Certainty Represented Knowledge Flow for Refusal-Aware Instruction Tuning**
+   *Runchuan Zhu, Zhipeng Ma, Jiang Wu, Junyuan Gao, Jiaqi Wang, Dahua Lin, Conghui He* [[paper]](https://arxiv.org/abs/2410.06913) 2024.10
    
 
 Some researchers claim that the behavior cloning phenomenon in SFT can induce hallucinations. So some works try to mitigate hallucinations via *honesty-oriented SFT*.
