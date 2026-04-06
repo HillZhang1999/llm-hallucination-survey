@@ -695,6 +695,9 @@ Recent work suggests that hallucinations can also be mitigated by leveraging unl
                
 1. **On Large Language Models' Hallucination with Regard to Known Facts**
    *Che Jiang, Biqing Qi, Xiangyu Hong, Dayuan Fu, Yang Cheng, Fandong Meng, Mo Yu, Bowen Zhou, Jie Zhou* [[paper]](https://arxiv.org/abs/2403.20009) 2024.03
+
+1. **DRIFT: Detecting Representational Inconsistencies for Factual Truthfulness**
+   *Rohan Bhatnagar, Youran Sun, Chi Andrew Zhang, Yixin Wen, Haizhao Yang* [[paper]](https://arxiv.org/abs/2601.14210) 2026.01
    
 ## 📲Contact
 We warmly welcome any kinds of useful suggestions or contributions. Feel free to drop us an issue or contact Hill with [this e-mail](mailto:hillzhang1999@qq.com).
