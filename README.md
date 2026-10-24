@@ -695,6 +695,12 @@ Recent work suggests that hallucinations can also be mitigated by leveraging unl
                
 1. **On Large Language Models' Hallucination with Regard to Known Facts**
    *Che Jiang, Biqing Qi, Xiangyu Hong, Dayuan Fu, Yang Cheng, Fandong Meng, Mo Yu, Bowen Zhou, Jie Zhou* [[paper]](https://arxiv.org/abs/2403.20009) 2024.03
+
+1. **ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation**
+   *Pengcheng Huang, Zhenghao Liu, Yukun Yan, Haiyan Zhao, Xiaoyuan Yi, Hao Chen, Zhiyuan Liu, Maosong Sun, Tong Xiao, Ge Yu, Chenyan Xiong* [[paper]](https://arxiv.org/abs/2502.15543) [[repo]](https://github.com/OpenBMB/ParamMute) 2025.02
+
+1. **SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation**
+   *Ruochang Li, Pengcheng Huang, Zhenghao Liu, Yukun Yan, Huiyuan Xie, Yu Gu, Ge Yu, Maosong Sun* [[paper]](https://arxiv.org/abs/2606.27786) [[repo]](https://github.com/OpenBMB/SPARK) 2026.06
    
 ## 📲Contact
 We warmly welcome any kinds of useful suggestions or contributions. Feel free to drop us an issue or contact Hill with [this e-mail](mailto:hillzhang1999@qq.com).
